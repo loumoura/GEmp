@@ -1,7 +1,3 @@
-#+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
-
-
-
 #+TODO: TODO IN-PROGRESS WAITING DONE
 #+TITLE:     Data 
 #+AUTHOR:    L.Moura
@@ -12,6 +8,20 @@
 #+DESCRIPTION: Variável data 
 #+KEYWORDS:  org-mode, college, engenharia
 #+LANGUAGE:  portuguese
+
+
+#+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
+
+
+#+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+#+HTML_HEAD: <script type="text/x-mathjax-config">
+#+HTML_HEAD: MathJax.Hub.Config({
+#+HTML_HEAD: tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+#+HTML_HEAD: processEscapes: true,processEnvironments: true },
+#+HTML_HEAD:  displayAlign: 'center',
+#+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
+
+
 
 #+OPTIONS:   H:7 num:nil   toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
@@ -67,12 +77,6 @@ configuração que ele apresenta é por isso mesmo de um livro de apontamentos, 
 as notas podem por vezes ser soltas e sem demasiada preocupação com a
 apresentação . 
 #+end_warning
-
-Existem mais dois websites de minha autoria, que complementam este:
-
-*Outros websites:*
-+ [[https://loumoura.github.io][Apontamentos em Org-mode]]
-+ [[http://lmoura.postach.io][Notes | Drops from Evernote]]
 
 
 Salientar que eu não sou programador nem tão pouco tenho alguma base
@@ -223,57 +227,6 @@ Verifica Condicoes pelo EC
 Os cálculos foram feitos de acordo com as normas do [[http://www.lnec.pt/pt/servicos/normalizacao-e-regulamentacao/normalizacao/ct-115-eurocodigos-estruturais/][Eurocódigo]].
 
 
-
-*** Python com Matplotlib e Numpy  (exemplo)  
-
-Um outro exemplo de como se pode usar python e desta vez recorrendo a duas
-das muitas /packages/ ([[http://matplotlib.org][Matplotlib]] e [[http://www.numpy.org][Numpy]]) disponíveis para esta linguagem,
-pode-se obter resultados gráficos para um dado problema. Neste
-exemplo, é dito ao editor para processar uma imagem de um gráfico de
-uma função $f(x)=x^{2}$. 
-
-Assim, começamos por introduzir os dados em um bloco e a ditar os
-nossos termos para a configuração do gráfico:
-
-#+BEGIN_SRC python :results file :exports all
-import matplotlib.pyplot as plt
-import numpy as np
-fig=plt.figure(figsize=(6,4))
-x=np.linspace(-1,1)
-plt.plot(x**2 )
-plt.grid(True)
-plt.xlabel('Distância')
-plt.ylabel("Altura")
-plt.title('Titulo',fontsize=14)
-plt.text(20, 0.6, 'Indicador')
-plt.savefig("images/elevado.png")
-return "images/elevado.png"
-#+END_SRC
-
-
-E o resultado, ou seja, a função $f(x)=x^{2}$ é apresentada de
-seguida:
-
-#+RESULTS:
-[[file:images/elevado.png]]
-
-
-Com esta breve introdução, fica apresentado o modo de como é feito 
-a análise em org-mode e python (sendo o mesmo aplicado para outras
-linguagens informáticas). 
-
-#+begin_quote 
-O bloco referente à _introdução de dados_, e em referência ao
-desenvolvimento deste website, só será mostrado caso faça sentido na
-exposição de uma ideia [fn::O ficheiro original deste
-website, encontra-se acessível no [[https://github.com/loumoura/loumoura.github.io][GitHub]], em formato .org]. 
-É minha intenção, dedicar este espaço, ao desenvolvimento e análise de situações da/e na
-construção civil, deixando para os especialistas em informática, o
-desenvolvimento da programação.
-#+end_quote
-
-
-
 ** Lista de tarefas:
 
 *** DONE Atualizar formatação latex
@@ -284,3 +237,4 @@ desenvolvimento da programação.
 
 *** TODO Adicionar referências dos trabalhos aonde necessário
 
+* Data

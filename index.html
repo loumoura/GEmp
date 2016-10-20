@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 2016-10-20 Thu 23:54 -->
+<!-- 2016-10-21 Fri 00:16 -->
 <meta  charset="utf-8">
 <meta  name="viewport" content="width=device-width, initial-scale=1">
 <title>Data</title>
@@ -101,6 +101,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
 <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+processEscapes: true,processEnvironments: true },
+displayAlign: 'center',
+"HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -209,18 +216,6 @@ apresentação .
 </p>
 
 </div>
-
-<p>
-Existem mais dois websites de minha autoria, que complementam este:
-</p>
-
-<p>
-<b>Outros websites:</b>
-</p>
-<ul class="org-ul">
-<li><a href="https://loumoura.github.io/">Apontamentos em Org-mode</a></li>
-<li><a href="http://lmoura.postach.io/">Notes | Drops from Evernote</a></li>
-</ul>
 
 
 <p>
@@ -389,106 +384,33 @@ Os cálculos foram feitos de acordo com as normas do <a href="http://www.lnec.pt
 </p>
 </div>
 </div>
-
-
-
-<div id="outline-container-orgheadline4" class="outline-4">
-<h4 id="orgheadline4">Python com Matplotlib e Numpy  (exemplo)</h4>
-<div class="outline-text-4" id="text-orgheadline4">
-<p>
-Um outro exemplo de como se pode usar python e desta vez recorrendo a duas
-das muitas <i>packages</i> (<a href="http://matplotlib.org/">Matplotlib</a> e <a href="http://www.numpy.org/">Numpy</a>) disponíveis para esta linguagem,
-pode-se obter resultados gráficos para um dado problema. Neste
-exemplo, é dito ao editor para processar uma imagem de um gráfico de
-uma função \(f(x)=x^{2}\). 
-</p>
-
-<p>
-Assim, começamos por introduzir os dados em um bloco e a ditar os
-nossos termos para a configuração do gráfico:
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-python"><span style="color: #932092;">import</span> matplotlib.pyplot <span style="color: #932092;">as</span> plt
-<span style="color: #932092;">import</span> numpy <span style="color: #932092;">as</span> np
-<span style="color: #a0522d;">fig</span>=plt.figure(figsize=(6,4))
-<span style="color: #a0522d;">x</span>=np.linspace(-1,1)
-plt.plot(x**2 )
-plt.grid(<span style="color: #008b8b;">True</span>)
-plt.xlabel(<span style="color: #8b2252;">'Dist&#226;ncia'</span>)
-plt.ylabel(<span style="color: #8b2252;">"Altura"</span>)
-plt.title(<span style="color: #8b2252;">'Titulo'</span>,fontsize=14)
-plt.text(20, 0.6, <span style="color: #8b2252;">'Indicador'</span>)
-plt.savefig(<span style="color: #8b2252;">"images/elevado.png"</span>)
-<span style="color: #932092;">return</span> <span style="color: #8b2252;">"images/elevado.png"</span>
-</pre>
 </div>
 
 
-<p>
-E o resultado, ou seja, a função \(f(x)=x^{2}\) é apresentada de
-seguida:
-</p>
-
-
-<div class="figure">
-<p><img src="images/elevado.png" alt="elevado.png">
-</p>
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8">Lista de tarefas:</h3>
+<div class="outline-text-3" id="text-orgheadline8">
+</div><div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4"><span class="done DONE">DONE</span> Atualizar formatação latex</h4>
 </div>
 
-
-<p>
-Com esta breve introdução, fica apresentado o modo de como é feito 
-a análise em org-mode e python (sendo o mesmo aplicado para outras
-linguagens informáticas). 
-</p>
-
-<blockquote>
-<p>
-O bloco referente à <span class="underline">introdução de dados</span>, e em referência ao
-desenvolvimento deste website, só será mostrado caso faça sentido na
-exposição de uma ideia <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. 
-É minha intenção, dedicar este espaço, ao desenvolvimento e análise de situações da/e na
-construção civil, deixando para os especialistas em informática, o
-desenvolvimento da programação.
-</p>
-</blockquote>
-</div>
-</div>
-</div>
-
-
-
-<div id="outline-container-orgheadline9" class="outline-3">
-<h3 id="orgheadline9">Lista de tarefas:</h3>
-<div class="outline-text-3" id="text-orgheadline9">
-</div><div id="outline-container-orgheadline5" class="outline-4">
-<h4 id="orgheadline5"><span class="done DONE">DONE</span> Atualizar formatação latex</h4>
+<div id="outline-container-orgheadline5" class="outline-4">
+<h4 id="orgheadline5"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Revisão dos dados</h4>
 </div>
 
 <div id="outline-container-orgheadline6" class="outline-4">
-<h4 id="orgheadline6"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Revisão dos dados</h4>
+<h4 id="orgheadline6"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Adicionar secção <span class="underline">Projeto</span></h4>
 </div>
 
 <div id="outline-container-orgheadline7" class="outline-4">
-<h4 id="orgheadline7"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Adicionar secção <span class="underline">Projeto</span></h4>
+<h4 id="orgheadline7"><span class="todo TODO">TODO</span> Adicionar referências dos trabalhos aonde necessário</h4>
+</div>
+</div>
 </div>
 
-<div id="outline-container-orgheadline8" class="outline-4">
-<h4 id="orgheadline8"><span class="todo TODO">TODO</span> Adicionar referências dos trabalhos aonde necessário</h4>
+<div id="outline-container-orgheadline9" class="outline-2">
+<h2 id="orgheadline9">Data</h2>
 </div>
 </div>
-</div>
-<div id="footnotes">
-<h2 class="footnotes">Footnotes: </h2>
-<div id="text-footnotes">
-
-<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara">O ficheiro original deste
-website, encontra-se acessível no <a href="https://github.com/loumoura/loumoura.github.io">GitHub</a>, em formato .org</div></div>
-
-
-</div>
-</div></div>
 </body>
 </html>
