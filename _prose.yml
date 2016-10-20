@@ -1,0 +1,10 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://loumoura.github.io/data/'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+ 
