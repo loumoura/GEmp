@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 2016-10-20 Thu 23:39 -->
+<meta  charset="utf-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1">
+<title>Data</title>
+<meta  name="generator" content="Org-mode">
+<meta  name="author" content="L.Moura">
+<meta  name="description" content="Variável data"
+>
+<meta  name="keywords" content="org-mode, college, engenharia">
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+processEscapes: true,processEnvironments: true },
+displayAlign: 'center',
+"HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Data
+<br>
+<span class="subtitle">Apontamentos</span>
+</h1>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1">Home</h2>
+<div class="outline-text-2" id="text-orgheadline1">
+<p>
+Algumas <b>considerações</b> sobre este website. 
+</p>
+
+<ul class="org-ul">
+<li>O site apresenta algumas das notas que eu fui tirando ao longo dos
+anos, tanto na vida académica como profissional.</li>
+<li>As notas são feitas em acordo com os <a href="https://www.lnec.pt/pt/servicos/normalizacao-e-regulamentacao/normalizacao/ct-115-eurocodigos-estruturais/">Eurocódigos</a> e com base de
+aplicação em Portugal.</li>
+<li>O site é escrito em <a href="https://orgmode.org/">Org-Mode</a> sendo depois compilado para
+<code>html</code>. Muitas das notas foram preparadas originalmente em <code>latex</code>
+para serem depois compiladas para <code>pdf</code> .</li>
+</ul>
+
+
+<div class="warning">
+<p>
+Este site encontra-se no processo de (constante) atualização. 
+</p>
+
+<p>
+Este website foi criado para uso pessoal,de forma a poder aceder aos
+meus apontamentos de um qualquer lugar com acesso à internet. A
+configuração que ele apresenta é por isso mesmo de um livro de apontamentos, em que
+as notas podem por vezes ser soltas e sem demasiada preocupação com a
+apresentação . 
+</p>
+
+</div>
+
+<p>
+Existem mais dois websites de minha autoria, que complementam este:
+</p>
+
+<p>
+<b>Outros websites:</b>
+</p>
+<ul class="org-ul">
+<li><a href="https://loumoura.github.io/">Apontamentos em Org-mode</a></li>
+<li><a href="http://lmoura.postach.io/">Notes | Drops from Evernote</a></li>
+</ul>
+
+
+<p>
+Salientar que eu não sou programador nem tão pouco tenho alguma base
+no assunto. No entanto, tanto por curiosidade como por causa do
+beneficio cientifico da análise dos sistemas estruturais de uma obra
+por linguagens
+como o <a href="https://www.python.org/">python</a>, <a href="https://www.r-project.org/">R</a>, <a href="https://daringfireball.net/projects/markdown/">markdown</a>, <a href="https://www.latex-project.org/">Latex</a>, etc, assim como na preparação da
+documentação de um projeto através destas mesmas linguagens informáticas,
+tenho vindo no último ano a dedicar-me ao estudo destas e às formas
+como elas me podem ajudar tanto na vida académica como profissional.
+</p>
+
+<p>
+O principal objectivo deste website é para uso próprio, de forma a eu
+poder aceder aos meus apontamentos na internet. As várias secções, são
+um conjunto de apontamentos, que foram tirados de uma forma rápida, sem ter preocupação com a
+qualidade da escrita e por vezes, com erros no conteúdo FIXME, os quais, eu
+estou agora a tentar rever. Qualquer pessoa é livre de aceder e usar o
+conteúdo que aqui existe, tanto para uso privado como comercial.
+</p>
+
+
+<div class="tip">
+<p>
+O conteúdo deste website é mais facilmente acedido através de um
+computador. Embora esteja preparado para ser visualizado em telefones,
+existe uma sobrecarga de informação no visualizador.
+</p>
+
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2">Org-Mode e Python</h3>
+<div class="outline-text-3" id="text-orgheadline2">
+<p alt="snake" title="python logo" align="left" width="100">
+<img src="https://www.python.org/static/opengraph-icon-200x200.png" alt="snake" title="python logo" align="left" width="100">
+Por si só, a linguagem informática <a href="https://www.python.org/">python</a>, não tem grande significado para
+mim. É certo que se consegue fazer excelentes análises através desta 
+ferramenta, mas falando na qualidade de um <i>não programador</i>, não tenho
+os conhecimentos nem o tempo, para elaborar longas listas de código
+(informático) para poder executar um processo complexo de análise. 
+No entanto, se junto com <code>python</code>, usarmos um editor de texto como o 
+<a href="https://www.gnu.org/software/emacs/">emacs</a>, mais propriamente o sistema <a href="http://orgmode.org/">org-mode</a> do <code>emacs</code>, ficamos na posse
+de uma ferramenta que em muito supera qualquer um dos produtos da
+<a href="https://products.office.com/pt-pt/student/office-in-education">Microsoft</a>.
+Todo este website é escrito em <a href="http://orgmode.org/">org-mode</a> do <a href="https://www.gnu.org/software/emacs/">emacs</a> sendo depois passado
+para a internet e guardado no <a href="https://github.com/">GitHub</a>. 
+</p>
+
+
+<p>
+<span class="underline">A primeira equação que se aprende na prática de betão armado:</span> 
+</p>
+
+<p>
+\[{ \mu  }=\frac { { M }_{ rd } }{ b\times { d }^{ 2 }\times { f }_{ cd } }\] 
+</p>
+</div>
+
+
+
+<div id="outline-container-orgheadline3" class="outline-4">
+<h4 id="orgheadline3">VIGA-Armadura em flexão</h4>
+<div class="outline-text-4" id="text-orgheadline3">
+<p>
+Um exemplo simples da utilização de <a href="https://www.python.org/">python</a>, é no cálculo armadura
+necessária em uma viga à flexão. Os cálculos em sí não tem nada de
+complicado e qualquer máquina de calcular os faz. Mas obter os
+resultados em forma de tabela, prontos a serem incluídos em
+documentação da obra ou a serem compartilhados aqui neste website, é
+uma grande <i>mais valia</i>.
+</p>
+
+<p>
+Os valores das variáveis foram introduzidos em uma outra secção do
+documento, e por isso não são apresentados no código em python. No
+entanto, elas são apresentadas no resultado final. De qualquer maneira
+é apresentado no bloco que se segue, os seus valores:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-org" id="orgsrcblock1">Vari&#225;veis:
++ Mrd=61.2
++ h=0.5 
++ fcd=13.33 
++ b=.3
++ fsyd=348
++ fctm=2.2
++ fyk=400
+</pre>
+</div>
+
+<p>
+O bloco aonde são introduzidas as fórmulas necessárias para o
+desenvolvimento do cálculo:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python" id="orgsrcblock2"><span style="color: #932092;">import</span> pandas <span style="color: #932092;">as</span> pd
+<span style="color: #932092;">from</span> sympy <span style="color: #932092;">import</span> *
+<span style="color: #a0522d;">d</span>=0.9*h
+<span style="color: #a0522d;">Ac</span>=h*b
+<span style="color: #a0522d;">u</span>=<span style="color: #483d8b;">float</span>(Mrd/(fcd*1000*d**2*b))
+<span style="color: #a0522d;">W</span>=1-sqrt(1-2*u)
+<span style="color: #a0522d;">As</span>= (W*b*d*(fcd/fsyd)*10**4).n(2)
+<span style="color: #a0522d;">Asmax</span>=(0.04*Ac*10**4)
+<span style="color: #a0522d;">Asmin</span>= (0.26*(fctm/fyk)*b*d*10**4)
+<span style="color: #a0522d;">Asmin_Verif</span>=0.0013*b*d*10**4
+<span style="color: #932092;">def</span> <span style="color: #0432fe;">verifica</span>(Asmin):
+    <span style="color: #932092;">if</span> Asmin &gt;= 0.0013*b*d*100:
+        <span style="color: #a0522d;">verifica</span> = <span style="color: #932092;">print</span> (<span style="color: #8b2252;">"Verifica Condicoes pelo EC"</span>)
+    <span style="color: #932092;">else</span>:
+        <span style="color: #a0522d;">verifica</span> = <span style="color: #932092;">print</span>(<span style="color: #8b2252;">"NAO VERIFICA"</span>)
+    <span style="color: #932092;">return</span> verifica
+<span style="color: #a0522d;">Descricao</span>=[<span style="color: #8b2252;">"Momento Resistente (kN/m)"</span>,<span style="color: #8b2252;">"Altura Total h (m)"</span>, <span style="color: #8b2252;">"d (m)"</span>, 
+           <span style="color: #8b2252;">"fcd (mPa)"</span>, <span style="color: #8b2252;">"b (m)"</span>,<span style="color: #8b2252;">"Momento Reduzido "</span>, 
+           <span style="color: #8b2252;">"W"</span>, <span style="color: #8b2252;">"fsyd (mPa)"</span>, <span style="color: #8b2252;">"Area armadura (cm2)"</span>, <span style="color: #8b2252;">"Area de Betao, m2"</span>, 
+           <span style="color: #8b2252;">"Area Maxima armadura,cm2"</span>, <span style="color: #8b2252;">"fctm, mPa"</span>, <span style="color: #8b2252;">"fyk, mPa"</span>,
+           <span style="color: #8b2252;">"Area minima armadura, cm2"</span>, <span style="color: #8b2252;">"Verificacao Area minima, cm2"</span>]
+<span style="color: #a0522d;">Resultados</span>=[Mrd, h, d, fcd, b, u, W, fsyd, As, Ac, 
+            Asmax,fctm, fyk, Asmin, Asmin_Verif ]
+<span style="color: #a0522d;">data</span> = {<span style="color: #8b2252;">'Descricao'</span> : pd.Series(Descricao), 
+        <span style="color: #8b2252;">'Resultados'</span> : pd.Series(Resultados)}
+<span style="color: #a0522d;">tabela</span> = pd.DataFrame(data)
+<span style="color: #932092;">print</span>(tabela)
+<span style="color: #932092;">print</span>(<span style="color: #8b2252;">"Verificacao:  As,min = "</span>,Asmin, <span style="color: #8b2252;">" cm2 &gt; 0,0013xbtxd = "</span>, Asmin_Verif, <span style="color: #8b2252;">"cm2"</span> )
+verifica(Asmin)
+</pre>
+</div>
+
+<p>
+E por fim obtemos uma tabela com os vários resultados. A partir do
+momento que o bloco da introdução de dados está feito, pode ser
+reaplicado em outras vigas que estejam sujeitas (neste caso somente) à
+flexão.
+</p>
+
+<pre class="example">
+                       Descricao          Resultados
+0      Momento Resistente (kN/m)                61.2
+1             Altura Total h (m)                 0.5
+2                          d (m)                0.45
+3                      fcd (mPa)               13.33
+4                          b (m)                 0.3
+5              Momento Reduzido            0.0755744
+6                              W  0.0786688425629442
+7                     fsyd (mPa)                 348
+8            Area armadura (cm2)                 4.1
+9              Area de Betao, m2                0.15
+10      Area Maxima armadura,cm2                  60
+11                     fctm, mPa                 2.2
+12                      fyk, mPa                 400
+13     Area minima armadura, cm2              1.9305
+14  Verificacao Area minima, cm2               1.755
+Verificacao:  As,min =  1.9305000000000003  cm2 &gt; 0,0013xbtxd =  1.7550000000000001 cm2
+Verifica Condicoes pelo EC
+</pre>
+
+<p>
+Os cálculos foram feitos de acordo com as normas do <a href="http://www.lnec.pt/pt/servicos/normalizacao-e-regulamentacao/normalizacao/ct-115-eurocodigos-estruturais/">Eurocódigo</a>.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4">Python com Matplotlib e Numpy  (exemplo)</h4>
+<div class="outline-text-4" id="text-orgheadline4">
+<p>
+Um outro exemplo de como se pode usar python e desta vez recorrendo a duas
+das muitas <i>packages</i> (<a href="http://matplotlib.org/">Matplotlib</a> e <a href="http://www.numpy.org/">Numpy</a>) disponíveis para esta linguagem,
+pode-se obter resultados gráficos para um dado problema. Neste
+exemplo, é dito ao editor para processar uma imagem de um gráfico de
+uma função \(f(x)=x^{2}\). 
+</p>
+
+<p>
+Assim, começamos por introduzir os dados em um bloco e a ditar os
+nossos termos para a configuração do gráfico:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #932092;">import</span> matplotlib.pyplot <span style="color: #932092;">as</span> plt
+<span style="color: #932092;">import</span> numpy <span style="color: #932092;">as</span> np
+<span style="color: #a0522d;">fig</span>=plt.figure(figsize=(6,4))
+<span style="color: #a0522d;">x</span>=np.linspace(-1,1)
+plt.plot(x**2 )
+plt.grid(<span style="color: #008b8b;">True</span>)
+plt.xlabel(<span style="color: #8b2252;">'Dist&#226;ncia'</span>)
+plt.ylabel(<span style="color: #8b2252;">"Altura"</span>)
+plt.title(<span style="color: #8b2252;">'Titulo'</span>,fontsize=14)
+plt.text(20, 0.6, <span style="color: #8b2252;">'Indicador'</span>)
+plt.savefig(<span style="color: #8b2252;">"images/elevado.png"</span>)
+<span style="color: #932092;">return</span> <span style="color: #8b2252;">"images/elevado.png"</span>
+</pre>
+</div>
+
+
+<p>
+E o resultado, ou seja, a função \(f(x)=x^{2}\) é apresentada de
+seguida:
+</p>
+
+
+<div class="figure">
+<p><img src="images/elevado.png" alt="elevado.png">
+</p>
+</div>
+
+
+<p>
+Com esta breve introdução, fica apresentado o modo de como é feito 
+a análise em org-mode e python (sendo o mesmo aplicado para outras
+linguagens informáticas). 
+</p>
+
+<blockquote>
+<p>
+O bloco referente à <span class="underline">introdução de dados</span>, e em referência ao
+desenvolvimento deste website, só será mostrado caso faça sentido na
+exposição de uma ideia <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. 
+É minha intenção, dedicar este espaço, ao desenvolvimento e análise de situações da/e na
+construção civil, deixando para os especialistas em informática, o
+desenvolvimento da programação.
+</p>
+</blockquote>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgheadline9" class="outline-3">
+<h3 id="orgheadline9">Lista de tarefas:</h3>
+<div class="outline-text-3" id="text-orgheadline9">
+</div><div id="outline-container-orgheadline5" class="outline-4">
+<h4 id="orgheadline5"><span class="done DONE">DONE</span> Atualizar formatação latex</h4>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-4">
+<h4 id="orgheadline6"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Revisão dos dados</h4>
+</div>
+
+<div id="outline-container-orgheadline7" class="outline-4">
+<h4 id="orgheadline7"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Adicionar secção <span class="underline">Projeto</span></h4>
+</div>
+
+<div id="outline-container-orgheadline8" class="outline-4">
+<h4 id="orgheadline8"><span class="todo TODO">TODO</span> Adicionar referências dos trabalhos aonde necessário</h4>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara">O ficheiro original deste
+website, encontra-se acessível no <a href="https://github.com/loumoura/loumoura.github.io">GitHub</a>, em formato .org</div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>
