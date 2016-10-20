@@ -1,9 +1,6 @@
 #+TODO: TODO IN-PROGRESS WAITING DONE
 #+TITLE:     Data 
 #+AUTHOR:    L.Moura
-#+SUBTITLE:  Apontamentos 
-#+EMAIL:     2121193@my.ipleiria.pt
-#+DATE:      \today
 
 #+DESCRIPTION: Variável data 
 #+KEYWORDS:  org-mode, college, engenharia
@@ -23,16 +20,13 @@
 
 
 
-#+OPTIONS:   H:7 num:nil   toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
+#+OPTIONS:   H:4 num:nil   toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+OPTIONS:   html-postamble:nil html-preamble:t tex:t 
 
 #+OPTIONS: prop:("VERSION")
 #+HTML_DOCTYPE: <!DOCTYPE html>
 
-
-
-#+OPTIONS: TeX:t
 
 #+STARTUP: inlineimages
 #+STARTUP: indent
@@ -55,17 +49,11 @@
 
 
 
-* Home
-
+* Considerações Iniciais
 Algumas *considerações* sobre este website. 
 
-+ O site apresenta algumas das notas que eu fui tirando ao longo dos
-  anos, tanto na vida académica como profissional. 
-+ As notas são feitas em acordo com os [[https://www.lnec.pt/pt/servicos/normalizacao-e-regulamentacao/normalizacao/ct-115-eurocodigos-estruturais/][Eurocódigos]] e com base de
-  aplicação em Portugal.
 + O site é escrito em [[https://orgmode.org][Org-Mode]] sendo depois compilado para
-  ~html~. Muitas das notas foram preparadas originalmente em ~latex~
-  para serem depois compiladas para ~pdf~ .
+  ~html~. 
 
 
 #+begin_warning
@@ -79,22 +67,8 @@ apresentação .
 #+end_warning
 
 
-Salientar que eu não sou programador nem tão pouco tenho alguma base
-no assunto. No entanto, tanto por curiosidade como por causa do
-beneficio cientifico da análise dos sistemas estruturais de uma obra
-por linguagens
-como o [[https://www.python.org][python]], [[https://www.r-project.org][R]], [[https://daringfireball.net/projects/markdown/][markdown]], [[https://www.latex-project.org][Latex]], etc, assim como na preparação da
-documentação de um projeto através destas mesmas linguagens informáticas,
-tenho vindo no último ano a dedicar-me ao estudo destas e às formas
-como elas me podem ajudar tanto na vida académica como profissional.
-
 O principal objectivo deste website é para uso próprio, de forma a eu
-poder aceder aos meus apontamentos na internet. As várias secções, são
-um conjunto de apontamentos, que foram tirados de uma forma rápida, sem ter preocupação com a
-qualidade da escrita e por vezes, com erros no conteúdo FIXME, os quais, eu
-estou agora a tentar rever. Qualquer pessoa é livre de aceder e usar o
-conteúdo que aqui existe, tanto para uso privado como comercial.
-
+poder aceder aos meus apontamentos e na internet.
 
 #+begin_tip
 O conteúdo deste website é mais facilmente acedido através de um
@@ -102,129 +76,6 @@ computador. Embora esteja preparado para ser visualizado em telefones,
 existe uma sobrecarga de informação no visualizador.
 #+end_tip
 
-
-** Org-Mode e Python
-
-#+CAPTION: Python 
-#+NAME:   Python Logo
-#+ATTR_HTML: :alt snake :title python logo :align left :width 100
-[[https://www.python.org/static/opengraph-icon-200x200.png]]
-Por si só, a linguagem informática [[https://www.python.org][python]], não tem grande significado para
-mim. É certo que se consegue fazer excelentes análises através desta 
-ferramenta, mas falando na qualidade de um /não programador/, não tenho
-os conhecimentos nem o tempo, para elaborar longas listas de código
-(informático) para poder executar um processo complexo de análise. 
-No entanto, se junto com =python=, usarmos um editor de texto como o 
-[[https://www.gnu.org/software/emacs/][emacs]], mais propriamente o sistema [[http://orgmode.org][org-mode]] do =emacs=, ficamos na posse
-de uma ferramenta que em muito supera qualquer um dos produtos da
-[[https://products.office.com/pt-pt/student/office-in-education][Microsoft]].
-Todo este website é escrito em [[http://orgmode.org][org-mode]] do [[https://www.gnu.org/software/emacs/][emacs]] sendo depois passado
-para a internet e guardado no [[https://github.com][GitHub]]. 
-
-
-_A primeira equação que se aprende na prática de betão armado:_ 
- 
-$${ \mu  }=\frac { { M }_{ rd } }{ b\times { d }^{ 2 }\times { f }_{ cd } }$$ 
-
-
-
-*** VIGA-Armadura em flexão  
-
-Um exemplo simples da utilização de [[https://www.python.org][python]], é no cálculo armadura
-necessária em uma viga à flexão. Os cálculos em sí não tem nada de
-complicado e qualquer máquina de calcular os faz. Mas obter os
-resultados em forma de tabela, prontos a serem incluídos em
-documentação da obra ou a serem compartilhados aqui neste website, é
-uma grande /mais valia/.
-
-Os valores das variáveis foram introduzidos em uma outra secção do
-documento, e por isso não são apresentados no código em python. No
-entanto, elas são apresentadas no resultado final. De qualquer maneira
-é apresentado no bloco que se segue, os seus valores:
-
-#+NAME: Variaveis
-#+BEGIN_SRC org
-Variáveis:
-+ Mrd=61.2
-+ h=0.5 
-+ fcd=13.33 
-+ b=.3
-+ fsyd=348
-+ fctm=2.2
-+ fyk=400
-#+END_SRC
-
-O bloco aonde são introduzidas as fórmulas necessárias para o
-desenvolvimento do cálculo:
-
-#+NAME: Armadura_flexao
-#+header: :var Mrd=61.2
-#+header: :var h=0.5 
-#+header: :var fcd=13.33 
-#+header: :var b=.3
-#+header: :var fsyd=348
-#+header: :var fctm=2.2
-#+header: :var fyk=400
-#+BEGIN_SRC python  :results output :exports all
-import pandas as pd
-from sympy import *
-d=0.9*h
-Ac=h*b
-u=float(Mrd/(fcd*1000*d**2*b))
-W=1-sqrt(1-2*u)
-As= (W*b*d*(fcd/fsyd)*10**4).n(2)
-Asmax=(0.04*Ac*10**4)
-Asmin= (0.26*(fctm/fyk)*b*d*10**4)
-Asmin_Verif=0.0013*b*d*10**4
-def verifica(Asmin):
-    if Asmin >= 0.0013*b*d*100:
-        verifica = print ("Verifica Condicoes pelo EC")
-    else:
-        verifica = print("NAO VERIFICA")
-    return verifica
-Descricao=["Momento Resistente (kN/m)","Altura Total h (m)", "d (m)", 
-           "fcd (mPa)", "b (m)","Momento Reduzido ", 
-           "W", "fsyd (mPa)", "Area armadura (cm2)", "Area de Betao, m2", 
-           "Area Maxima armadura,cm2", "fctm, mPa", "fyk, mPa",
-           "Area minima armadura, cm2", "Verificacao Area minima, cm2"]
-Resultados=[Mrd, h, d, fcd, b, u, W, fsyd, As, Ac, 
-            Asmax,fctm, fyk, Asmin, Asmin_Verif ]
-data = {'Descricao' : pd.Series(Descricao), 
-        'Resultados' : pd.Series(Resultados)}
-tabela = pd.DataFrame(data)
-print(tabela)
-print("Verificacao:  As,min = ",Asmin, " cm2 > 0,0013xbtxd = ", Asmin_Verif, "cm2" )
-verifica(Asmin)
-#+END_SRC
-
-E por fim obtemos uma tabela com os vários resultados. A partir do
-momento que o bloco da introdução de dados está feito, pode ser
-reaplicado em outras vigas que estejam sujeitas (neste caso somente) à
-flexão.
-
-#+RESULTS: Armadura_flexao
-#+begin_example
-                       Descricao          Resultados
-0      Momento Resistente (kN/m)                61.2
-1             Altura Total h (m)                 0.5
-2                          d (m)                0.45
-3                      fcd (mPa)               13.33
-4                          b (m)                 0.3
-5              Momento Reduzido            0.0755744
-6                              W  0.0786688425629442
-7                     fsyd (mPa)                 348
-8            Area armadura (cm2)                 4.1
-9              Area de Betao, m2                0.15
-10      Area Maxima armadura,cm2                  60
-11                     fctm, mPa                 2.2
-12                      fyk, mPa                 400
-13     Area minima armadura, cm2              1.9305
-14  Verificacao Area minima, cm2               1.755
-Verificacao:  As,min =  1.9305000000000003  cm2 > 0,0013xbtxd =  1.7550000000000001 cm2
-Verifica Condicoes pelo EC
-#+end_example
-
-Os cálculos foram feitos de acordo com as normas do [[http://www.lnec.pt/pt/servicos/normalizacao-e-regulamentacao/normalizacao/ct-115-eurocodigos-estruturais/][Eurocódigo]].
 
 
 ** Lista de tarefas:
