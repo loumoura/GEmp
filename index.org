@@ -1,14 +1,6 @@
 #+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
 
-#+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-#+HTML_HEAD: <script type="text/x-mathjax-config">
-#+HTML_HEAD: MathJax.Hub.Config({
-#+HTML_HEAD: tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-#+HTML_HEAD: processEscapes: true,processEnvironments: true },
-#+HTML_HEAD:  displayAlign: 'center',
-#+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
-
 
 #+TODO: TODO IN-PROGRESS WAITING DONE
 #+TITLE:     Data 
