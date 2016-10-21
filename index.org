@@ -5,7 +5,7 @@
 #+DATE:      \today
 
 #+PROPERTY:  header-args :padline no
-#+SETUPFILE: ~/styles/readtheorg/theme-readtheorg.setup
+#+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
 
 #+html: <a href="http://opensource.org/licenses/GPL-3.0">
