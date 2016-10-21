@@ -4,14 +4,12 @@
 #+Email: loumoura@gmail.com
 #+DATE:      \today
 
-
 #+PROPERTY:  header-args :padline no
 #+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
 #+html: <a href="http://opensource.org/licenses/GPL-3.0">
 #+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
 #+html: </a>
-
 
 
 #+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -21,7 +19,6 @@
 #+HTML_HEAD: processEscapes: true,processEnvironments: true },
 #+HTML_HEAD:  displayAlign: 'center',
 #+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
-
 
 
 #+OPTIONS:   H:4 num:2   toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
