@@ -1,93 +1,43 @@
-#+TODO: TODO IN-PROGRESS WAITING DONE
-#+TITLE:     Banco de dados
-#+AUTHOR:    L.Moura
-#+Email: loumoura@gmail.com
-#+DATE:      \today
+#+TITLE:     Org Babel reference card
+#+AUTHOR:    luis moura
+#+EMAIL:     loumoura@gmail.com
+#+DESCRIPTION: Org Babel reference card
+#+KEYWORDS:  emacs, org-mode, org-babel, eric shulte, dan davison, literate programming, reproducible research, sweave
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:nil toc:2
 
-#+PROPERTY:  header-args :padline no
-#+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
+# -*- mode: org; -*-
 
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
 
-#+html: <a href="http://opensource.org/licenses/GPL-3.0">
-#+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
-#+html: </a>
-
-
-#+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-#+HTML_HEAD: <script type="text/x-mathjax-config">
-#+HTML_HEAD: MathJax.Hub.Config({
-#+HTML_HEAD: tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-#+HTML_HEAD: processEscapes: true,processEnvironments: true },
-#+HTML_HEAD:  displayAlign: 'center',
-#+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 
 
-#+OPTIONS:   H:4 num:2   toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
-#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+OPTIONS:   html-postamble:nil html-preamble:t tex:t 
+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
-#+OPTIONS: prop:("VERSION")
-#+HTML_DOCTYPE: <!DOCTYPE html>
-
-
-#+STARTUP: inlineimages
-#+STARTUP: indent
-
-#+begin_src emacs-lisp :exports none
-  (org-babel-do-load-languages
- 'org-babel-load-languages
-  '( (perl . t)         
-     (ruby . t)
-     (R . t)
-     (python . t)
-     (calc . t)
-     (emacs-lisp . t)
-     (gnuplot  t)
-   ))
-#+end_src
-
-#+RESULTS:
-: ((perl . t) (ruby . t) (R . t) (python . t) (calc . t) (emacs-lisp . t) (gnuplot t))
+#+PROPERTY:  header-args :eval never
 
 
 
-* Considerações Iniciais
-Algumas *considerações* sobre este website. 
+* Introduction
 
-+ O site é escrito em [[https://orgmode.org][Org-Mode]] sendo depois compilado para
-  ~html~. 
+Welcome to Org Babel reference card.  It contains the reference documentation
+that describes how to perform *code execution* within Org mode documents using Org
+Babel 8.
 
+In a nutshell, Org Babel is like Sweave but it takes
+a *large number of possible languages* (C, Java, Python, Ruby, R, ...) and Org
+mode can produce *HTML* as well as *PDF*.
 
 #+begin_warning
-Este site encontra-se no processo de (constante) atualização. 
-
-Este website foi criado para uso pessoal,de forma a poder aceder aos
-meus apontamentos de um qualquer lugar com acesso à internet. A
-configuração que ele apresenta é por isso mesmo de um livro de apontamentos, em que
-as notas podem por vezes ser soltas e sem demasiada preocupação com a
-apresentação . 
+Prolonged use may cause addiction!
 #+end_warning
 
 
-O principal objectivo deste website é para uso próprio, de forma a eu
-poder aceder aos meus apontamentos e na internet.
+* Documentation
 
-#+begin_tip
-O conteúdo deste website é mais facilmente acedido através de um
-computador. Embora esteja preparado para ser visualizado em telefones,
-existe uma sobrecarga de informação no visualizador.
-#+end_tip
-
-
-
-** Lista de tarefas:
-
-*** DONE Atualizar formatação latex
-
-*** IN-PROGRESS Revisão dos dados
-
-*** IN-PROGRESS Adicionar secção _Projeto_
-
-*** TODO Adicionar referências dos trabalhos aonde necessário
-
-* Data
+See h

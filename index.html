@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-10-21 Fri 13:06 -->
-<meta  charset="utf-8">
-<meta  name="viewport" content="width=device-width, initial-scale=1">
-<title>Banco de dados</title>
-<meta  name="generator" content="Org-mode">
-<meta  name="author" content="L.Moura">
+<!-- 2016-10-21 Fri 20:26 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Org Babel reference card</title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="luis moura" />
+<meta  name="description" content="Org Babel reference card"
+ />
+<meta  name="keywords" content="emacs, org-mode, org-babel, eric shulte, dan davison, literate programming, reproducible research, sweave" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -98,13 +103,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
 <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-processEscapes: true,processEnvironments: true },
-displayAlign: 'center',
-"HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -154,101 +152,60 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Banco de dados</h1>
+<h1 class="title">Org Babel reference card</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline6">1. Considerações Iniciais</a>
-<ul>
-<li><a href="#orgheadline5">1.1. Lista de tarefas:</a>
-<ul>
-<li><a href="#orgheadline1"><span class="done DONE">DONE</span> Atualizar formatação latex</a></li>
-<li><a href="#orgheadline2"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Revisão dos dados</a></li>
-<li><a href="#orgheadline3"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Adicionar secção <span class="underline">Projeto</span></a></li>
-<li><a href="#orgheadline4"><span class="todo TODO">TODO</span> Adicionar referências dos trabalhos aonde necessário</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgheadline7">2. Data</a></li>
+<li><a href="#orgheadline1">Introduction</a></li>
+<li><a href="#orgheadline2">Documentation</a></li>
 </ul>
 </div>
 </div>
-<a href="http://opensource.org/licenses/GPL-3.0">
-<img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
-</a>
-
-<div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6"><span class="section-number-2">1</span> Considerações Iniciais</h2>
-<div class="outline-text-2" id="text-1">
 <p>
-Algumas <b>considerações</b> sobre este website. 
+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 </p>
 
-<ul class="org-ul">
-<li>O site é escrito em <a href="https://orgmode.org/">Org-Mode</a> sendo depois compilado para
-<code>html</code>.</li>
-</ul>
 
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1">Introduction</h2>
+<div class="outline-text-2" id="text-orgheadline1">
+<p>
+Welcome to Org Babel reference card.  It contains the reference documentation
+that describes how to perform <b>code execution</b> within Org mode documents using Org
+Babel 8.
+</p>
+
+<p>
+In a nutshell, Org Babel is like Sweave but it takes
+a <b>large number of possible languages</b> (C, Java, Python, Ruby, R, &#x2026;) and Org
+mode can produce <b>HTML</b> as well as <b>PDF</b>.
+</p>
 
 <div class="warning">
 <p>
-Este site encontra-se no processo de (constante) atualização. 
+Prolonged use may cause addiction!
 </p>
 
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2">Documentation</h2>
+<div class="outline-text-2" id="text-orgheadline2">
 <p>
-Este website foi criado para uso pessoal,de forma a poder aceder aos
-meus apontamentos de um qualquer lugar com acesso à internet. A
-configuração que ele apresenta é por isso mesmo de um livro de apontamentos, em que
-as notas podem por vezes ser soltas e sem demasiada preocupação com a
-apresentação . 
+See h
 </p>
-
-</div>
-
-
-<p>
-O principal objectivo deste website é para uso próprio, de forma a eu
-poder aceder aos meus apontamentos e na internet.
-</p>
-
-<div class="tip">
-<p>
-O conteúdo deste website é mais facilmente acedido através de um
-computador. Embora esteja preparado para ser visualizado em telefones,
-existe uma sobrecarga de informação no visualizador.
-</p>
-
-</div>
-</div>
-
-
-
-<div id="outline-container-orgheadline5" class="outline-3">
-<h3 id="orgheadline5"><span class="section-number-3">1.1</span> Lista de tarefas:</h3>
-<div class="outline-text-3" id="text-1-1">
-</div><div id="outline-container-orgheadline1" class="outline-4">
-<h4 id="orgheadline1"><span class="done DONE">DONE</span> Atualizar formatação latex</h4>
-</div>
-
-<div id="outline-container-orgheadline2" class="outline-4">
-<h4 id="orgheadline2"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Revisão dos dados</h4>
-</div>
-
-<div id="outline-container-orgheadline3" class="outline-4">
-<h4 id="orgheadline3"><span class="todo IN_PROGRESS">IN-PROGRESS</span> Adicionar secção <span class="underline">Projeto</span></h4>
-</div>
-
-<div id="outline-container-orgheadline4" class="outline-4">
-<h4 id="orgheadline4"><span class="todo TODO">TODO</span> Adicionar referências dos trabalhos aonde necessário</h4>
 </div>
 </div>
 </div>
-
-<div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7"><span class="section-number-2">2</span> Data</h2>
-</div>
+<div id="postamble" class="status">
+<p class="author">Author: luis moura</p>
+<p class="date">Created: 2016-10-21 Fri 20:26</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
