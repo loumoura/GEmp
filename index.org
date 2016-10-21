@@ -44,25 +44,24 @@
 #+RESULTS:
 : ((R . t) (python . t) (gnuplot . t) (ditaa . t) (calc . t) (emacs-lisp . t))
 
+
+#+begin_comment 
 SETUPFILE: styles/readtheorg/theme-readtheorg.setup
+#+end_comment
 
 
 
+* Introdução
 
-* Introduction
 
-Welcome to Org Babel reference card.  It contains the reference documentation
-that describes how to perform *code execution* within Org mode documents using Org
-Babel 8.
-
-In a nutshell, Org Babel is like Sweave but it takes
-a *large number of possible languages* (C, Java, Python, Ruby, R, ...) and Org
-mode can produce *HTML* as well as *PDF*.
 
 #+begin_warning
-Prolonged use may cause addiction!
+Este website foi criado para uso pessoal, não existindo nenhuma
+garantia quanto à qualidade dos dados aqui existente.
 #+end_warning
 
+** Empreendimento
++ Informação guardada no google
 
 #+NAME: Import google data-seaborn plot
 #+BEGIN_SRC python :results file :exports results
@@ -89,6 +88,3 @@ return 'images/graph2.png'
 [[file:images/graph2.png]]
 
 
-* Documentation
-
-See h
