@@ -1,13 +1,17 @@
 #+TODO: TODO IN-PROGRESS WAITING DONE
-#+TITLE:     Data 
+#+TITLE:     Banco de dados
 #+AUTHOR:    L.Moura
-
-#+DESCRIPTION: Variável data 
-#+KEYWORDS:  org-mode, college, engenharia
-#+LANGUAGE:  portuguese
+#+Email: loumoura@gmail.com
+#+DATE:      \today
 
 
+#+PROPERTY:  header-args :padline no
 #+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
+
+#+html: <a href="http://opensource.org/licenses/GPL-3.0">
+#+html:   <img src="http://img.shields.io/:license-gpl-blue.svg" alt=":license-gpl-blue.svg" />
+#+html: </a>
+
 
 
 #+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -20,7 +24,7 @@
 
 
 
-#+OPTIONS:   H:4 num:nil   toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
+#+OPTIONS:   H:4 num:2   toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+OPTIONS:   html-postamble:nil html-preamble:t tex:t 
 
