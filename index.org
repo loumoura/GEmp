@@ -1,9 +1,9 @@
-#+TITLE:     Org Babel reference card
-#+AUTHOR:    luis moura
-#+EMAIL:     loumoura@gmail.com
-#+DESCRIPTION: Org Babel reference card
-#+KEYWORDS:  emacs, org-mode, org-babel, eric shulte, dan davison, literate programming, reproducible research, sweave
-#+LANGUAGE:  en
+#+Title: Base de dados
+#+AUTHOR: Luis Moura
+#+Email: loumoura@gmail.com
+#+DESCRIPTION: Base de dados de vários sectores
+#+KEYWORDS:  org-mode
+#+LANGUAGE:  portuguese
 #+OPTIONS:   H:4 num:nil toc:2
 
 # -*- mode: org; -*-
@@ -17,9 +17,22 @@
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 
 
+
+#+HTML_HEAD: <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+#+HTML_HEAD: <script type="text/x-mathjax-config">
+#+HTML_HEAD: MathJax.Hub.Config({
+#+HTML_HEAD: tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ],displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+#+HTML_HEAD: processEscapes: true,processEnvironments: true },
+#+HTML_HEAD:  displayAlign: 'center',
+#+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
+
+#+OPTIONS: prop:("VERSION")
+#+HTML_DOCTYPE: <!DOCTYPE html>
+
+
+
 SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
-#+PROPERTY:  header-args :eval never
 
 
 
