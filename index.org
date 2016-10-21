@@ -29,7 +29,20 @@
 #+OPTIONS: prop:("VERSION")
 #+HTML_DOCTYPE: <!DOCTYPE html>
 
+#+begin_src emacs-lisp :exports none
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+  '( (R . t)         
+     (python . t)
+     (gnuplot . t)
+     (ditaa . t)
+     (calc . t)
+     (emacs-lisp . t)   
+   ))
+#+end_src
 
+#+RESULTS:
+: ((R . t) (python . t) (gnuplot . t) (ditaa . t) (calc . t) (emacs-lisp . t))
 
 SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
@@ -49,6 +62,31 @@ mode can produce *HTML* as well as *PDF*.
 #+begin_warning
 Prolonged use may cause addiction!
 #+end_warning
+
+
+#+NAME: Import google data-seaborn plot
+#+BEGIN_SRC python :results file :exports results
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(style="whitegrid", color_codes=True)
+
+sns.set_context("paper")
+plt.figure(figsize=(10, 6))
+
+emp=pd.read_csv("https://docs.google.com/spreadsheets/d/1z0Gp-dBf3kSwOQhnjDU1GXYW4-oatmm389Z_kasBKTk/export?format=csv&id", 
+			usecols=["Designação dos Trabalhos","Quantidade","Custo Unitário (euros)", "Fase", "Tipo"],
+			index_col=["Designação dos Trabalhos"],
+			header=0)
+emp["Total (euros)"]=emp["Quantidade"]*emp["Custo Unitário (euros)"]
+sns.factorplot(x="Tipo", y="Total (euros)",
+               col="Fase", data=emp, kind="box", aspect=1)
+plt.savefig('images/graph2.png')					
+return 'images/graph2.png'
+#+END_SRC
+
+#+RESULTS: Import google data-seaborn plot
+[[file:images/graph2.png]]
 
 
 * Documentation
