@@ -108,7 +108,7 @@ especializa na reutilização de contentores para venda]]
 
 #+NAME: Container Home
 #+Caption: Exemplo de uma das casas a serem construídas
-#+ATTR_HTML: :alt casa :title Contentor  :align center 
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
 [[./images/container_home.png]]
 
 *** Georreferenciação do projeto:
@@ -128,7 +128,7 @@ localizado a poucos kms a Sul de Porto de Mós, no Distrito de Leiria.
 
 #+NAME: mapa
 #+Caption: Mapa regional com a localização do projeto
-#+ATTR_HTML: :alt mapa regional :title mapa  :align center 
+#+ATTR_HTML: :alt mapa regional :title mapa  :align center :width 600
 [[./images/georef.png]]
 
 
