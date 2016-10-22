@@ -118,14 +118,24 @@ A localização georreferenciada do projeto, pode ser vista [[./Georef.html][aqu
 com "show code". 
 O Pressionar desse betão faz com seja apresentado o
 código em =python= usado na elaboração da Georreferenciação, com os
-valores das latitudes e longitudes para o projeto.
+valores das latitudes e longitudes para o projeto. 
 #+end_note
+
+A figura [[mapa]], é o mapa da localização do projeto, estando este
+localizado a poucos kms a Sul de Porto de Mós, no Distrito de Leiria.
+
 
 
 #+NAME: mapa
 #+Caption: Mapa regional com a localização do projeto
 #+ATTR_HTML: :alt mapa regional :title mapa  :align center 
 [[./images/Georef.png]]
+
+
+Este mapa e outros mais, também pode ser visto [[https://nbviewer.jupyter.org/gist/loumoura/50ec2cb00ba852c266b694d7e44dfc59][aqui]], caso exista algum problema com a
+conversão de =python= para =html= no link acima referenciado na
+"Note".
+
 
 **** Limites da Propriedade
 
