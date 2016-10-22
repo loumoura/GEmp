@@ -129,7 +129,7 @@ localizado a poucos kms a Sul de Porto de Mós, no Distrito de Leiria.
 #+NAME: mapa
 #+Caption: Mapa regional com a localização do projeto
 #+ATTR_HTML: :alt mapa regional :title mapa  :align center 
-[[./images/Georef.png]]
+[[./images/georef.png]]
 
 
 Este mapa e outros mais, também pode ser visto [[https://nbviewer.jupyter.org/gist/loumoura/50ec2cb00ba852c266b694d7e44dfc59][aqui]], caso exista algum problema com a
