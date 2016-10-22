@@ -1,10 +1,10 @@
-#+Title: Base de dados
+#+Title: Empreendimento turístico
 #+AUTHOR: Luis Moura
 #+Email: loumoura@gmail.com
 #+DESCRIPTION: Base de dados de vários sectores
 #+KEYWORDS:  org-mode
 #+LANGUAGE:  portuguese
-#+OPTIONS:   H:4 num:nil toc:2
+#+OPTIONS:   H:4 num:2 toc:2
 
 #+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
@@ -16,6 +16,7 @@
 #+HTML_HEAD: processEscapes: true,processEnvironments: true },
 #+HTML_HEAD:  displayAlign: 'center',
 #+HTML_HEAD:  "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}},linebreaks: { automatic: true }} }); </script>
+#+TODO: TODO IN-PROGRESS WAITING DONE
 
 #+OPTIONS: prop:("VERSION")
 #+HTML_DOCTYPE: <!DOCTYPE html>
@@ -42,40 +43,280 @@ SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
 
 
-* Introdução
+* IN-PROGRESS Introdução 
 
+    
+#+begin_sidebar
+*Palavras-Chave:*
 
+- Empreendimento
+- Hotelaria e Desenvolvimento Sustentável
+- Equipa
+- Tempo e Custo
+#+end_sidebar
 
+#+begin_abstract
+Este website foi criado a partir da necessidade da existência de um
+espaço virtual, em que fosse possível a partilha de dados e informação
+referentes à criação de um Empreendimento. Este trabalho está inserido
+no curso de licenciatura de Engenharia Civil e consiste na criação,
+desenvolvimento e controlo das diversas fases de um Empreendimento, na
+óptica de um engenheiro civil. 
+
+Importa desde já referir, que o texto deste website *é feito
+na condição de Promotor*, em que são desenvolvidos inicialmente os
+primeiros passos do Empreendimento, indo depois progredindo, com a
+análise financeira, qualitativa e temporal.  
+
+Será então, e de uma forma sumária, introduzido a
+visão geral do Empreendimento, os objetivos que se pretende com o
+mesmo, a perspetiva financeira inicial quanto aos resultados e a
+conjuntura que leva às escolhas e objetivos pretendidos.
+
+Sendo livre o acesso do público em geral a este website, é importante referir que a
+informação que aqui consta, é para um projeto fictício, e que portanto não deverá ser
+usado como fonte de informação ou de apoio a nenhum trabalho. 
+#+end_abstract
+ 
+  
 #+begin_warning
-Este website foi criado para uso pessoal, não existindo nenhuma
-garantia quanto à qualidade dos dados aqui existente.
+Este website encontra-se em atualização 
 #+end_warning
 
-** Empreendimento
-+ Informação guardada no google
+* IN-PROGRESS A Ideia e a Equipa
 
-#+NAME: Import google data-seaborn plot
-#+BEGIN_SRC python :results file :exports results
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set(style="whitegrid", color_codes=True)
+Elaboração provisória dos objetivos do Empreendimento, assim como
+alguns dos grupos participantes no processo de criação e estudo da
+viabilidade económica-financeira, ambiental e quais quer outros
+estudos que se venham a mostrar necessários no desenvolvimento do
+Empreendimento.
+ 
 
-sns.set_context("paper")
-plt.figure(figsize=(10, 6))
 
-emp=pd.read_csv("https://docs.google.com/spreadsheets/d/1z0Gp-dBf3kSwOQhnjDU1GXYW4-oatmm389Z_kasBKTk/export?format=csv&id", 
-			usecols=["Designação dos Trabalhos","Quantidade","Custo Unitário (euros)", "Fase", "Tipo"],
-			index_col=["Designação dos Trabalhos"],
-			header=0)
-emp["Total (euros)"]=emp["Quantidade"]*emp["Custo Unitário (euros)"]
-sns.factorplot(x="Tipo", y="Total (euros)",
-               col="Fase", data=emp, kind="box", aspect=1)
-plt.savefig('images/graph2.png')					
-return 'images/graph2.png'
-#+END_SRC
 
-#+RESULTS: Import google data-seaborn plot
-[[file:images/graph2.png]]
+** O Empreendimento
+O empreendimento consiste na instalação e exploração de uma *aldeia
+hoteleira e turística*, no concelho de [[https://pt.wikipedia.org/wiki/Porto_de_Mós][Porto de Mós]], em plena [[https://pt.wikipedia.org/wiki/Parque_Natural_das_Serras_de_Aire_e_Candeeiros][Serra de
+Aire e Candeeiros]], perto do percurso pedestre da [[http://www.municipio-portodemos.pt/page.aspx?id=218][Fórnea]]. 
+
+A aldeia será composta por um conjunto independente de casas, que têm
+como característica comum o fato de serem fabricadas a partir de
+contentores industriais usados. Uma ideia do tipo de casa pode ser
+vista na Figura 1 . [[fn:: A figura foi obtida do website
+[[http://www.ecobuildingpulse.com/news/prefab-shipping-container-homes-made-to-order_t][EcoBuildingPulse]], e pertence a uma companhia americana que se
+especializa na reutilização de contentores para venda]]
+
+#+NAME: Container Home
+#+Caption: Exemplo de uma das casas a serem construídas
+#+ATTR_HTML: :alt casa :title Contentor  :align center 
+[[./images/container_home.png]]
+
+*** Georreferenciação do projeto:
+
+#+begin_note 
+A localização georreferenciada do projeto, pode ser vista [[./Georef.html][aqui]] (abre uma nova janela). No topo esquerdo da nova janela, tem um botão
+com "show code". 
+O Pressionar desse betão faz com seja apresentado o
+código em =python= usado na elaboração da Georreferenciação, com os
+valores das latitudes e longitudes para o projeto.
+#+end_note
+
+
+#+NAME: mapa
+#+Caption: Mapa regional com a localização do projeto
+#+ATTR_HTML: :alt mapa regional :title mapa  :align center 
+[[./images/Georef.png]]
+
+**** Limites da Propriedade
+
+Georreferenciação de pontos ao longo do limite da propriedade
+
+#+NAME: Tabela_Georef
+#+ATTR_HTML:   :align center
+| Ponto | Latitude | Longitude |
+|-------+----------+-----------|
+| A     |  39.5667 |   -8.7973 |
+| B     |  39.5671 |   -8.7962 |
+| C     |  39.5662 |   -8.7942 |
+| D     |  39.5646 |   -8.7929 |
+| E     |  39.5640 |   -8.7944 |
+
+
+ 
+
+*** Qualidade:
+
+
+ A imagem será um dos pontos mais importantes do empreendimento, com
+ especial valorização ao modo como o projeto se vai integrar tanto na
+ comunidade local, como no habitat natural da zona. Torna-se assim
+ vital que os níveis de qualidade sejam estabelecidos no Projeto de
+ Investimento, servindo de base à restante documentação:        
+
+ + Obtenção da certificação [[http://www.usgbc.org/leed][LEED]] . O nível de certificação a atingir no
+   projeto será decido em altura de Pré-Designe, com a colaboração dos
+   restantes membros do Empreendimento.
+ + Toda a construção deve estar perfeitamente enquadrada com o habitat
+   natural da zona. 
+ + Todo o impacto ao habitat natural, deve ser mantido ao mínimo, tanto
+   durante construção como durante a exploração. 
+ + O projeto terá um total de 10 unidades em uma primeira fase,
+   acrescida de outras 10, em uma segunda fase. No centro das unidades,
+   estará a estação de serviço, que albergará os escritórios, recepção
+   e serviços de manutenção. 
+ + A informação quanto ao desenvolvimento do projecto será
+   centralizada, sendo acessível aos vários membros da
+   equipa. Pretende-se assim implementar o [[https://en.wikipedia.org/wiki/Building_information_modeling][BIM]] na gestão do
+   projecto. O uso das siglas B.I.M. ao longo deste documento e em
+   futuros, representa um sistema de partilha de informação e não o de
+   uso de algum software em especial.
+
+
+
+*** Tempo:
+
+
+ São diversas as fases do Empreendimento, sendo mais tarde
+ desenvolvido, com a colaboração de toda a equipa, uma análise mais
+ aprofundada. Neste momento, é interesse desenvolver as metas em termos
+ gerais do que é pretendido do projeto.
+
+ #+NAME: Milestone
+ #+CAPTION: Metas 
+ #+ATTR_Latex:   :placement [h] :align l|c
+ | *Fase*                                           | *Duração*       |
+ |--------------------------------------------------+-----------------|
+ | Formação da Equipa                               | 3 meses         |
+ | Processo de análise e desenvolvimento do projeto | 12 meses        |
+ | Construção                                       | 6 meses         |
+ | Atividades de inicio de exploração               | 2 meses         |
+ | Adicionar 10 unidades à aldeia                   | final de 3 anos |
+ | Tempo de vida do projeto                         | 50 anos         |
+
+
+
+*** Custo:
+
+
+ Devido ao tipo de características do Empreendimento, o público alvo é
+ bem especifico, sendo de esperar que seja uma clientela jovem,
+ com gosto pela natureza, e por turistas, que quer visitando a Serra de
+ Aire ou Fátima, estando esta última a 30kms de distância, decidam
+ pernoitar na aldeia. 
+ É de acordo com o gosto e necessidades destas pessoas que as várias
+ unidades serão decoradas, algo que se espera não tenha um preço muito
+ significativo.
+
+
+
+ #+NAME: Custo Inicial
+ #+CAPTION: Previsão Orçamental para fase inicial
+ #+ATTR_Latex:   :placement [h] :align l|c
+ |   | *Descrição*                                      | *Preço (euros)* |
+ |---+--------------------------------------------------+-----------------|
+ |   | Obtenção e preparação do terreno                 |          100000 |
+ |   | Obtenção de 10 contentores usados                |           25000 |
+ |   | Preparação das 10 unidades (interior e exterior) |          100000 |
+ |   | Pagamento à equipa                               |           60000 |
+ |   | Construção da Estação central                    |           25000 |
+ |   | Licenças, impostos e taxas                       |           10000 |
+ |   | Diversos                                         |           35000 |
+ | # | *Total*                                          |          355000 |
+ #+TBLFM: @9$3=vsum(@2..@8)
+
+ A tabela [[Custo Inicial]] apresenta os custos esperados até ao inicio das
+ atividades de exploração. A este valor, há que depois acrescentar as despensas de
+ pessoal e manutenção, para manter em funcionamento as operações
+ diárias na aldeia. O
+ valor Total das despesas na fase inicial do Empreendimento, será
+ repartido por aproximadamente dois anos, como estimado na tabela
+ [[Milestone]].
+
+
+
+** Gestor de Projeto
+
+
++ Sendo este um projeto que pretende alcançar a certificação LEED, um
+  dos requisitos mais desejados no Gestor, será o conhecimento e
+  experiência com /projetos sustentáveis/. Ele próprio, ser
+  certificado pelo [[http://www.usgbc.org/credentials][USGBC]] ou mesmo pelo [[http://www.breeam.com][BREEAM]] é certamente uma mais
+  valia para o projeto. [fn:: Um dos requisitos para a obtenção do
+  selo LEED, é que exista na equipa pelo menos uma pessoa certificada
+  pelo USGC]
+
++ A experiência é mais valorizada que o grau académico. O Gestor deve
+  ter pelo menos 10 anos de experiência em equipas de liderança de
+  Empreendimentos na construção civil.
++ Capacidade de criação e liderança de uma equipa multidisciplinar. A
+  equipa será formada o mais cedo possível, e incluí _todos_ os
+  intervenientes ou os representantes destes, que de uma forma ou
+  outra, serão afetados pelo projeto. 
++ Sentir-se à vontade a lidar com sistemas informáticos de informação
+  centralizados (BIM), de modo que toda a equipa possa facilmente
+  compartilhar, alterar, rever e criar o Projeto em conjunto.
+
+
+
+
+** Consultores
+Os consultores deverão integrar a Equipa de Projeto, desde o início, e
+manterem-se ao longo das diversas fases. Após o início das operações
+na Aldeia, uma nova equipa deve ser formada, de acordo com as
+necessidades das operações.
++ Engenheiro do ambiente, de modo a aconselhar na integração do
+  projeto no habitat local.
++ Arquiteto com experiência em construção sustentável.
++ Decorador de interiores com experiência em construção moderna.
++ Empreiteiro: Devem ser convidados a estar presentes na Equipa de Projeto, duas
+  empresas de empreiteiros. O convite é feito tendo em conta a
+  _qualidade_ do trabalho que eles realizam. Ambos os empreiteiros têm
+  a posição de consultores, que para um deles se transformará posteriormente em
+  contrato para obra, após apresentação de /Orçamento/, em que será escolhido,
+  o que apresentar um menor preço.
++ Representante da comunidade local
++ Representante dos trabalhadores da Aldeia
++ Advogado, com experiência a lidar com o Município de Porto de Mós e
+  que tenha conhecimentos a lidar com projetos que fiquem perto de
+  áreas protegidas, de modo a que seja facilitada a obtenção das
+  várias licenças necessárias.
+
+
+ 
+* TODO Definição do Ambito
+
+** Caraterísticas e Objetivos
+
+** Modelo de Funcionamento
+
+** Método de Construção
+
+*** Soluções Técnicas
+
+** Análise SWOT
+
+* TODO Enquadramento Legal
+
+* TODO Quantificação de Custos
+
+* TODO Calendarização
+
+* TODO Estudos de Viabilidade
+
+** Viabilidade Técnica
+
+** Viabilidade Ambiental
+
+** Viabilidade Politíca-Social
+
+** Viabilidade Económica e Financeira
+
+* TODO Avaliação Financeira
+
+* TODO Organograma de Gestão do Empreendimento
+
+* TODO Conclusão
+
+
 
 
