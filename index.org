@@ -56,12 +56,12 @@ SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 #+end_sidebar
 
 #+begin_abstract
-Este website foi criado a partir da necessidade da existência de um
+Este website foi criado devido à necessidade de existência de um
 espaço virtual, em que fosse possível a partilha de dados e informação
 referentes à criação de um Empreendimento. Este trabalho está inserido
 no curso de licenciatura de Engenharia Civil e consiste na criação,
 desenvolvimento e controlo das diversas fases de um Empreendimento, na
-óptica de um engenheiro civil. 
+óptica de um engenheiro civil.   
 
 Importa desde já referir, que o texto deste website *é feito
 na condição de Promotor*, em que são desenvolvidos inicialmente os
@@ -73,9 +73,10 @@ visão geral do Empreendimento, os objetivos que se pretende com o
 mesmo, a perspetiva financeira inicial quanto aos resultados e a
 conjuntura que leva às escolhas e objetivos pretendidos.
 
-Sendo livre o acesso do público em geral a este website, é importante referir que a
-informação que aqui consta, é para um projeto fictício, e que portanto não deverá ser
-usado como fonte de informação ou de apoio a nenhum trabalho. 
+Sendo este website de livre acesso ao público em geral, é importante
+referir que a informação que aqui consta, é para um projeto fictício,
+e que portanto não deverá ser usado como fonte de informação ou de
+apoio a nenhum trabalho, seja ele académico ou não. 
 #+end_abstract
  
   
@@ -91,8 +92,6 @@ viabilidade económica-financeira, ambiental e quais quer outros
 estudos que se venham a mostrar necessários no desenvolvimento do
 Empreendimento.
  
-
-
 
 ** O Empreendimento
 O empreendimento consiste na instalação e exploração de uma *aldeia
@@ -114,7 +113,9 @@ especializa na reutilização de contentores para venda]]
 *** Georreferenciação do projeto:
 
 #+begin_note 
-A localização georreferenciada do projeto, pode ser vista [[./Georef.html][aqui]] (abre uma nova janela). No topo esquerdo da nova janela, tem um botão
+A localização georreferenciada do projeto, pode ser vista [[./Georef.html][aqui]] (abre
+uma nova janela). 
+No topo esquerdo da nova janela, tem um botão
 com "show code". 
 O Pressionar desse betão faz com seja apresentado o
 código em =python= usado na elaboração da Georreferenciação, com os
@@ -193,7 +194,7 @@ Georreferenciação de pontos ao longo do limite da propriedade
 
  #+NAME: Milestone
  #+CAPTION: Metas 
- #+ATTR_Latex:   :placement [h] :align l|c
+ #+ATTR_Latex:   :placement [h] :align l|c  
  | *Fase*                                           | *Duração*       |
  |--------------------------------------------------+-----------------|
  | Formação da Equipa                               | 3 meses         |
@@ -221,7 +222,7 @@ Georreferenciação de pontos ao longo do limite da propriedade
 
  #+NAME: Custo Inicial
  #+CAPTION: Previsão Orçamental para fase inicial
- #+ATTR_Latex:   :placement [h] :align l|c
+ #+ATTR_Latex:   :placement [h] :align l|c  
  |   | *Descrição*                                      | *Preço (euros)* |
  |---+--------------------------------------------------+-----------------|
  |   | Obtenção e preparação do terreno                 |          100000 |
