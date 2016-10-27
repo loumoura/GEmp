@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="portuguese">
+<head>
+<title></title>
+<!-- 2016-10-27 Thu 01:35 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="LMoura DRodrigues">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script type="text/javascript">
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+</head>
+<body>
+<div id="content" class="container">
+<div class="row"><div class="col-md-9"><h1 class="title"></h1>
+<p><a href="index.html"><small>Home</small></a></p>
+
+
+<div class="page-header">
+  <h1 style=font-size:200%;font-family:HELVETICA;color:rgb(176,58,46);text-align:left>Gestão de Empreendimento <small>Fases de execução</small></h1>
+</div>
+
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introdução</h2>
+<div class="outline-text-2" id="text-1">
+<p style=font-size:80%;font-family:HELVETICA;color:rgb(69,90,135);text-align:right>Autores: <a href="mailto:2121193@my.ipleiria.pt">L.Moura </a>, <a href="mailto:2121198@my.ipleiria.pt">DRodrigues</a></p>
+<p>
+
+
+
+<p>
+Este trabalho é uma cópia parcial dos apontamentos do professor
+António Duarte <sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>, da classe de
+Gestão de Empreendimentos, do curso de Engenharia Civil da <a href="http://www.ipleiria.pt/estg/">ESTG</a>.
+</p>
+
+<p>
+É apresentado de uma forma sumária, as sete etapas decorrentes da
+elaboração e execução de um Empreendimento, com especial focus, na
+área da Engenharia Civil. 
+</p>
+
+<p>
+O conceito aqui apresentado, é o que mais se aproxima do que se poderá
+considerar as melhores práticas portuguesas. 
+</p>
+
+<div class="well well-sm">
+<p style=font-size:100% >Este trabalho é uma cópia parcial dos apontamentos do professor António Duarte.</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-1" class="outline-4">
+<h4 id="sec-1-0-1">Websites de interesse</h4>
+<div class="outline-text-4" id="text-1-0-1">
+<p>
+Grupo de websites nacionais e internacionais de interesse para a
+prática de gestão de projetos.
+</p>
+
+
+<table class="table table-striped table-bordered table-hover table-condensed">
+
+
+<colgroup>
+<col  class="left">
+
+<col  class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="text-left">Nome</th>
+<th scope="col" class="text-left">Website</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-left">Project Management Institute</td>
+<td class="text-left"><a href="https://www.pmi.org">PMI</a></td>
+</tr>
+
+<tr>
+<td class="text-left">Associação Portuguesa de Gestão de Projectos</td>
+<td class="text-left"><a href="http://www.apogep.pt">APGP</a></td>
+</tr>
+
+<tr>
+<td class="text-left">Project Management Institute - Portugal</td>
+<td class="text-left"><a href="http://pmi-portugal.org/pmipt/">PMI Portugal</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Fase de análise de Viabilidade</h2>
+<div class="outline-text-2" id="text-2">
+<a href="index.html" class="btn btn-primary btn-xs">Home</a>
+</div>
+
+
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Definição do âmbito</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Processo interativo envolvendo gestor, consultores e Promotor. O
+promotor (devidamente esclarecido) tem que tomar muitas decisões nesta
+fase.               
+Estabelecer as metas a atingir, os meios a utilizar e os custos.
+</p>
+
+<ol class="org-ol">
+<li>Definir e justificar as caraterísticas do empreendimento Por vezes
+é necessário recorrer a estudos especializados, por exemplo, estudos de mercados. 
+</li>
+<li>Identificar o enquadramento legal.  
+</li>
+<li>Produzir desenhos que descrevam o projeto    
+</li>
+<li>Definir modelo de funcionamento do empreendimento    
+</li>
+<li>Planeamento temporal (calendarização)      
+</li>
+<li>Métodos de construção, soluções técnicas. Consideração de alternativas.     
+</li>
+<li>Quantificar custos (estimativa)   
+</li>
+<li>Planear financiamento
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1">Elaboração de estudos de viabilidade</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+<b>Análise de problemas de engenharia (técnicos), económico-financeiros,
+ambientais, políticos, sociais, comerciais, jurídicos, etc.</b> (2.2.2
+pág. 66)   
+É com base na análise dos resultados destes estudos que se constroem
+as diferentes variantes possíveis de um projecto de investimento,
+assim como o registo previsional das receitas e despesas de cada uma
+delas.
+</p>
+
+
+<p>
+<b>Viabilidade Técnica</b> Os estudos preliminares têm que se focar nos
+seguintes aspetos:
+</p>
+
+<ul class="org-ul">
+<li>Opção por soluções tecnológicas adequadas Estudar várias
+alternativas, por exemplo, estabelecer uma ligação rodoviária em
+ponte ou em túnel sob uma linha de água.
+</li>
+<li>Custos suficientemente calculados. Importante para programar o
+financiamento.
+</li>
+<li>A calendarização dos trabalhos é exequível. Fixa-se o prazo e depois
+reúnem-se os meios para cumprir. Importante para calendarizar o
+financiamento.
+</li>
+<li>As questões ambientais são atendidas. Importante para a aprovação do
+projeto.
+</li>
+</ul>
+
+<p>
+<b>Viabilidade Económico-Financeira</b>, Analisar as necessidades de
+financiamento e justificar o retorno financeiro previsto. Minimizar os
+riscos do investimento.
+</p>
+
+<p>
+<b>Viabilidade política e de enquadramento institucional</b>, O apoio
+político social ao empreendimento é muito importante: Existência de
+infra-estruturas que podem não ser um encargo do empreendimento:
+escolas, habitação, estradas Estímulos à geração de empregos com
+oferta de contrapartidas (cedência de terrenos, …) Apoios financeiros
+ao investimento a fundo perdido ou a taxa reduzida (apoios
+comunitários QREN Quadro de Referência Estratégica Nacional), isenção
+de impostos durante um determinado período de tempo.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-2-1-2" class="outline-4">
+<h4 id="sec-2-1-2">Avaliação do Empreendimento</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+<b>Avalia se o empreendimento é exequível.</b> Aprova ou desaprova o
+projeto considerando conjuntamente todos os aspetos
+económico-financeiros, ambientais, de saúde e segurança, de qualidade
+e desempenho, etc.
+</p>
+</div>
+
+<div id="outline-container-sec-2-1-2-1" class="outline-5">
+<h5 id="sec-2-1-2-1">Algumas técnicas específicas de apoio à decisão:</h5>
+<div class="outline-text-5" id="text-2-1-2-1">
+<p>
+<b>Análise Multicritério - Problemas de decisão (ou indecisão)</b>
+</p>
+
+<ul class="org-ul">
+<li>Modelação Matemática de problemas para encontrar a solução otimizada
+(investigação operacional). 
+</li>
+<li>A realização empreendimentos implica problemas muito complexos e
+difíceis de resolver apenas pela intuição =&gt; <b>Análise Multicritério</b>
+</li>
+<li>Os problemas a resolver têm uma realidade multidimensional onde
+todos os aspetos relevantes devem ser individualizados e
+considerados.
+</li>
+<li>Os diversos critérios a ter em conta simultaneamente muitas vezes
+são conflituantes.
+</li>
+</ul>
+
+<p>
+<b>Avaliação Financeira</b> Verificar se os proveitos são superiores aos
+custos, tendo em conta condições atuais e futuras. 
+</p>
+
+<ul class="org-ul">
+<li>A importância de saber lidar em engenharia com um recurso universal
+simbólico no qual os outros recursos podem ser convertidos &gt;
+dinheiro.
+</li>
+
+<li>Implica a avaliação de ativos reais (corpóreos – edifícios,
+incorpóreos – projetos, contratos, patentes, IMAGEM/BRAND…) que
+permitam realizar mais-valias. A avaliação e monetarização de ativos
+é um fator de erro.
+</li>
+</ul>
+
+<p>
+<b>Avaliação Custo/Benefício</b> Avalia o valor económico-social de
+projetos no setor público, ajuda a comparar alternativas em
+empreendimentos como transportes, educação, saúde. 
+</p>
+
+<ul class="org-ul">
+<li>Considera os custos e os benefícios (perdas e ganhos / comerciais e
+não comerciais) de cada grupo/membro da sociedade cujo bem-estar é
+afetado pelos empreendimentos.
+</li>
+</ul>
+
+<p>
+<b>Métodos de Participação (Discussão Pública)</b> Avaliação usada em
+processos de planeamento cuja ação se foca numa discussão permanente
+entre as entidades envolvidas. Há uma participação ativa de grupos
+sociais e instituições governamentais. 
+</p>
+
+
+<p>
+<b>Avaliação Ambiental</b> Devido à dimensão de muitos dos projetos atuais
+a utilização de recursos não pode ser desligada da qualidade do meio
+ambiente. Interesse público defendido através de legislação e
+organizações ambientalistas.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Implementação da Estratégia</h2>
+<div class="outline-text-2" id="text-3">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://en.wikipedia.org/wiki/Gantt_chart" class="thumbnail">
+        <p> Gráfico Gantt, wikipedia</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/896px-GanttChartAnatomy.svg.png" alt="Gantt" style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://en.wikipedia.org/wiki/SWOT_analysis" class="thumbnail">
+        <p>Análise SWOT, wikipedia </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/SWOT_en.svg/2000px-SWOT_en.svg.png" alt="SWOT" style="width:350px;height:350px">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<p>
+Definição de como o projeto é desenvolvido e gerido
+</p>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Controlo de Custos</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+O orçamento tem que ser cumprido. É necessário estabelecer
+ procedimentos de controlo: 
+</p>
+<ul class="org-ul">
+<li>Alterações (em fase de projeto técnico ou de construção)
+acompanhadas de previsão de custos.
+</li>
+<li>Por norma não se admite que o orçamento total seja excedido. Um
+aumento num item tem de ser compensado por uma economia noutro.
+</li>
+<li>A programação financeira deve ser atualizada permanentemente,
+considerando as alterações no projeto e certezas adquiridas (por
+exemplo atualização da taxa de inflação).
+</li>
+<li>Assegurar que o empreiteiro tem a informação correta em tempo de
+modo a evitar reclamações e indemnizações
+</li>
+<li>Existência de um fundo de reserva capaz de fazer face a situações
+imprevistas ou imprevisíveis (não serve para cobrir alterações ou
+erros e omissões)
+</li>
+<li>Evitar variações de preços por erros e omissões. Revisão de
+projetos, responsabilização dos culpados e exigência de um
+seguro. Fase de revisão do projeto pelo empreiteiro (transferindo
+para ele a responsabilidade de detetar erros) e combinação de um
+preço forfait.
+</li>
+<li>Elaboração regular de relatórios comparando custos verificados com
+os planeados. A evolução do desempenho financeiro torna-se
+transparente, o gestor fica mais exposto a avaliação.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Contratação</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Escolher processos e métodos de contratação dos participantes no
+projeto técnico e na construção. Métodos de contratação:
+</p>
+<ul class="org-ul">
+<li><b>Tradicional:</b>  Promotor designa equipa projetista e a construção é
+contratada por um empreiteiro, usualmente após um concurso. Promotor
+&gt; Projetista &gt; Empreiteiro 
+</li>
+<li><b>Conceção e construção:</b>  O Promotor escolhe, usualmente após um
+concurso ou negociação, um empreiteiro que se responsabiliza pelo
+projeto técnico e deve fornecer a construção acabada. Promotor &gt;
+Empreiteiro com Projetista 
+</li>
+<li><b>Gestão sob contratação:</b> O promotor designa uma equipa projetista
+como no processo tradicional, mas aumentada com a contratação e
+gestão global das subempreitadas das diversas
+especialidades. Promotor &gt; Projetista com a responsabilidade de
+gerir a construção 
+</li>
+<li><b>Gestão de construção:</b> A contratação e a gestão global das
+subempreitadas das diversas especialidades é efetuada diretamente
+pelo promotor.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Seleção e Aquisição de terrenos/instalações</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Tão cedo quanto possível porque influencia outras decisões Estabelecer
+as exigências e objetivos do terreno a utilizar nas construções:
+</p>
+
+<ul class="org-ul">
+<li>Acessibilidade 
+</li>
+<li>Existência de infraestruturas 
+</li>
+<li>Proximidade de serviços complementares 
+</li>
+<li>Disponibilidade de acordo com o planeamento territorial
+</li>
+<li>Avaliar os locais de acordo com os critérios relevantes (se
+necessário recorrendo à análise multicritério).
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> Investigação dos terrenos/instalações selecionados</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Investigação mais exaustiva dos terrenos para atualizar os estudos de
+ viabilidade:
+</p>
+
+<ul class="org-ul">
+<li>Levantamentos topográficos 
+</li>
+<li>Estudos geotécnicos e hidrogeológicos 
+</li>
+<li>Levantamento de sistemas de drenagens e redes técnicas 
+</li>
+<li>Levantamento de contaminações 
+</li>
+<li>Estudos de tráfego 
+</li>
+<li>Levantamento de propriedades adjacentes (direitos de opção,
+fundações, drenagens, acessos, serventias, ruídos)
+</li>
+<li>Levantamentos arqueológicos 
+</li>
+<li>Levantamento de questões ambientais 
+</li>
+<li>Aspetos legais de licenciamento, restrições impostas pelos
+instrumentos legais de ordenamento  
+<ul class="org-ul">
+<li>PMOT – Planos municipais de Ordenamento do território
+</li>
+<li>PEOT – Planos especiais de Ordenamento do território 
+<ul class="org-ul">
+<li>Planos de Ordenamento de Áreas protegidas 
+</li>
+<li>Planos de Ordenamento da Orla Costeira
+</li>
+<li>Planos de Ordenamento de Albufeiras
+</li>
+</ul>
+</li>
+<li>PROT – Planos Regionais do ordenamento do território 
+</li>
+<li>REN – Reseva Ecológica Nacional 
+</li>
+<li>RAN – reserva Agrícola Nacional 
+</li>
+<li>Servidões e restrições de utilidade pública
+</li>
+</ul>
+</li>
+</ul>
+<ul class="org-ul">
+<li>Consulta de viabilidade à entidade licenciadora.
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Pré-Construção</h2>
+<div class="outline-text-2" id="text-4">
+<div class="progress progress-striped active">
+  <div class="progress-bar" style="width: 45%"></div>
+</div>
+
+
+
+<p>
+<b>Ponto da situação:</b> 
+No início desta fase existem: 
+</p>
+<ul class="org-ul">
+<li>Uma equipa de consultores
+</li>
+<li>Um terreno /instalações 
+</li>
+<li>Existem levantamentos topográficos e geológicos dos terrenos 
+</li>
+<li>Descrição do empreendimento, apoiada em esquemas técnicos adequados 
+</li>
+<li>Existe um programa geral para o empreendimento 
+</li>
+<li>Existe uma estimativa orçamental inicial 
+</li>
+<li>Existe financiamento 
+</li>
+<li>Foram consultadas as entidades licenciadoras (planeamento do
+território, uso do solo, fornecedores de infra-estruturas diversas
+(vias de comunicação, abastecimento água, energia, gás, etc) e são
+conhecidos os requisitos a cumprir.
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Gestão de Projetos Técnicos</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Elaboração de projetos de arquitetura e engenharia detalhados e
+completos (incluindo desenhos de execução, medições e orçamento,
+caderno de encargos).
+</p>
+
+<p>
+Atividades próprias desta fase a desenvolver pelo Gestor 
+</p>
+<ul class="org-ul">
+<li>Seleção e Contratação de Projetistas e revisores de projetos Acordar
+custos e obrigações
+</li>
+<li>Conferir cumprimento das obrigações e autorizar pagamentos 
+</li>
+<li>Supervisionamento e coordenação dos projetistas: 
+<ul class="org-ul">
+<li>Calendarização das atividades de projeto, coordenando as diversas
+especialidades. Definição de prazos. Elaborar um <b>diagrama de
+GANTT</b>, figura <a href="#double picture">1</a>.
+</li>
+<li>Estabelecer formas de apresentação de projetos (escalas, tamanhos
+e formatos dos desenhos, pormenores, peças escritas, formato dos
+ficheiros digitais…)
+</li>
+<li>Plano de reuniões periódicas para controlar e verificar o avanço
+dos trabalhos. Exigir nomeação de diretores de projeto
+responsáveis nos gabinetes projetistas.
+</li>
+<li>Promoção de reuniões em que intervenham projetistas de diversas
+especialidades que interagem diretamente entre si.
+</li>
+<li>Identificar desvios relativamente aos custos considerados na
+definição de âmbito do projeto.
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Preparação da Construção e Concursos</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Funções do Gestor:
+</p>
+
+<ul class="org-ul">
+<li>Preparar os processos de concurso para escolha de diversos
+intervenientes na fase da construção
+<ul class="org-ul">
+<li>Elaborar programas de concursos e contratos. Juntar as
+especificações técnicas (projetos). Verificar se na documentação
+são assegurados os trabalhos relativos à fase antes da construção
+principal, como demolições limpeza de terrenos, criação de
+acessos, etc.
+</li>
+<li>Diversos tipos concursos consoante os intervenientes na
+construção: empreitadas de construção fiscalização (técnica, HST,
+financeira,…) fornecedores (mobiliário, cozinhas, decoração,
+viaturas…)
+</li>
+</ul>
+</li>
+
+<li>Nomear os júris de concursos 
+<ul class="org-ul">
+<li>Funções dos júris: 
+<ul class="org-ul">
+<li>Selecionar lista de empresas a convidar 
+</li>
+<li>Abrir concurso 
+</li>
+<li>Esclarecer dúvidas colocadas pelos concorrentes 
+</li>
+<li>Classificar os concorrentes
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>Assegurar que o terreno de construção se encontra livre
+</li>
+<li>Realizar encontros prévios com vencedores dos concursos para
+estabelecer procedimentos e processos de comunicação
+</li>
+<li>Estabelecer processo adequado para gestão da qualidade 
+<ul class="org-ul">
+<li>O controlo de qualidade passa depois a ser responsabilidade de empreiteiros, subempreiteiros e fornecedores.
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Construção</h2>
+<div class="outline-text-2" id="text-5">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Fluor_construction_site_Shuaiba,_Kuwait.jpg" class="img-responsive" alt="https://en.wikipedia.org/wiki/Fluor_Corporation">
+
+<p class="text-center"><small>Imagem: Fluor Corporation, wikipedia </small></p>
+
+<ul class="org-ul">
+<li>Planear e Controlar empreitadas de construção, fiscalização e
+projetistas. 
+</li>
+<li>Dialogar com entidades financiadoras (as fases de financiamentos são
+escalonadas em função da progressão da obra, a qual serve como
+garantia). 
+</li>
+<li>Dialogar com entidades licenciadoras
+</li>
+</ul>
+</div>
+
+
+
+<div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Inicialização</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>Obter programa de trabalho do empreiteiro e verificar adequabilidade
+ao programa do empreendimento (diagrama de Gantt)
+</li>
+<li>Verificar se o corpo técnico do empreiteiro (diretor de produção,
+diretor de obra, encarregados) está consciente dos seus deveres,
+responsabilidades e formas de comunicação.
+</li>
+<li>Verificar se o terreno pode ser entregue ao empreiteiro na data
+prevista
+</li>
+<li>Verificar que equipamentos/bens patrimoniais a preservar são
+salvaguardados
+</li>
+<li>Verificar que foram efetuados os devidos seguros
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Implementação de um sistema de controlo</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Asegurar que empreiteiros, projetistas, fiscalização e consultores cumprem os
+objetivos em termos de calendarização, custos e qualidade.
+</p>
+</div>
+
+<div id="outline-container-sec-5-2-1" class="outline-4">
+<h4 id="sec-5-2-1">Monitorização de projetistas e executantes</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<p>
+Monitorizar o funcionamento dos intervenientes na construção de modo a
+assegurar: 
+</p>
+<ul class="org-ul">
+<li>Haja cumprimento de deveres e obrigações. A informação deve chegar
+atempadamente ao empreiteiro 
+</li>
+<li>Sejam efetuadas reuniões regulares e reuniões extraordinárias quando
+necessário, com elaboração de atas 
+</li>
+<li>Não haja desvios orçamentais
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-2-2" class="outline-4">
+<h4 id="sec-5-2-2">Controlo de Alterações</h4>
+<div class="outline-text-4" id="text-5-2-2">
+<ul class="org-ul">
+<li>Identificar problemas em conjunto com a equipa
+</li>
+<li>Promover a procura de soluções
+<ul class="org-ul">
+<li>Existindo alterações &gt; verificar todas as consequências, em
+especial, implicações em termos contratuais, de prazo custos e
+licenciamentos.
+</li>
+<li>Implementar um sistema de documentação, registo e controlo de
+alterações:
+<ul class="org-ul">
+<li>Atas de reuniões
+</li>
+<li>Sistema de numeração de desenhos técnicos que permita eliminar
+os desenhos desatualizados
+</li>
+<li>Registar no livro de obra a entrega dos novos desenhos
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-2-3" class="outline-4">
+<h4 id="sec-5-2-3">Relatórios</h4>
+<div class="outline-text-4" id="text-5-2-3">
+<p>
+Permitem tomar conhecimento do que acontece no empreendimento e
+consequentemente resolver problemas atempadamente e tomar medidas que
+melhorem o funcionamento do empreendimento.
+</p>
+</div>
+
+<div id="outline-container-sec-5-2-3-1" class="outline-5">
+<h5 id="sec-5-2-3-1">Relatório Gestor-&gt;Promotor</h5>
+<div class="outline-text-5" id="text-5-2-3-1">
+<p>
+O gestor apresenta ao Promotor relatórios periódicos e outros (sempre
+que ele os peça) cujas cópias devem ser enviadas às partes envolvidas
+sempre que conveniente. Deve incluir:
+</p>
+
+<ul class="org-ul">
+<li>Progressão do projeto técnico ou construção 
+</li>
+<li>Problemas surgidas e medidas para os resolver 
+</li>
+<li>Outras decisões que tenham que ser tomadas 
+</li>
+<li>Atualização de previsões de custos e prazos 
+</li>
+<li>Controlo de custos
+</li>
+</ul>
+
+
+<p>
+<span class="underline">Prever a elaboração de outros relatórios:</span> 
+<b>Relatórios semanais</b> com o resumo das atividades efetuadas durante a
+semana (iniciadas, em curso, terminadas). Referência às que são
+efetuadas na semana seguinte. Comparação entre executado e planeado
+com explicitação dos desvios.
+</p>
+
+<p>
+<b>Relatórios mensais</b> com o estado de desenvolvimento de cada atividade
+e a comparação do executado com o planeado com um apuramento dos
+desvios verificados no mês e dos desvios acumulados.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-2-3-2" class="outline-5">
+<h5 id="sec-5-2-3-2">Empreiteiro (diretor de obra), fiscalização, projetistas, laboratórios -&gt; Gestor</h5>
+<div class="outline-text-5" id="text-5-2-3-2">
+<ul class="org-ul">
+<li>Atas das reuniões periódicas/extraordinárias 
+</li>
+<li>Autos de medição Relatórios de ensaios 
+</li>
+<li>Documentos de homologação/certificação 
+</li>
+<li>Pareceres de entidades diversas (projetistas,…) 
+</li>
+<li>Relatórios semelhantes aos “outro relatórios” que o Gestor entrega
+ao Promotor
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Controlo de Qualidade</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Monitorar o cumprimento do plano de gestão de qualidade
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Conclusão e Receção</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Antes da receção da obra, deve verificar-se se os <b>equipamentos
+instalados</b> funcionam conforme previsto projeto técnico. Pode haver
+uma certa pressão a receção sem estes serviços estarem terminados.
+</li>
+<li>Com a conclusão das empreitadas a fiscalização efetua a <b>vistoria da
+obra</b> e procede à sua <b>receção provisória</b>.
+</li>
+<li>Seguidamente efetua-se a <b>transferência</b> de responsabilidades <b>para
+a entidade que irá ocupar e manter as instalações.</b>
+</li>
+<li>Com a receção provisória inicia-se o <b>período de garantia da obra</b> (5 anos) findo o qual será efetuada a receção definitiva, sendo devolvido ao executante o depósito de garantia. São atos que devem ficar registados formalmente para efeito de contagem de prazos de garantia e atribuição de responsabilidades.
+</li>
+<li>Durante o prazo de garantia, a entidade que ocupa e mantêm as
+instalações deve preparar listas das deficiências encontradas,
+trabalhos inacabados, materiais e trabalhos que não obedecem às
+especificações.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Ocupação e Exploração</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Em geral envolve a ocupação por pessoas e depende da finalidade do
+empreendimento. As operações de manutenção devem ser previstas e
+planeadas
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> Revisão e Fecho</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-sec-8-1" class="outline-3">
+<h3 id="sec-8-1"><span class="section-number-3">8.1</span> Relatório final</h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li>Descrição resumida e crítica acerca da forma como o empreendimento
+decorreu (objetivo inicial, alterações, acontecimentos relevantes,
+dificuldades encontradas e formas de resolução…) 
+</li>
+<li>Comentário à forma usada nos contratos e sua adequação 
+</li>
+<li>A estrutura organizacional e a adequação dos conhecimentos
+especializados utilizados 
+</li>
+<li>Análise do programa geral e comparação da calendarização prevista
+com a executada 
+</li>
+<li>Resumo dos sucessos, pontos mais fracos e lições que foi possível
+tirar, nomeadamente do que diz respeito a custos, programação,
+competências técnicas, qualidade, segurança e ambiente 
+</li>
+<li>Crítica sobre o que se atingiu em relação aos objetivos
+pré-definidos e se o produto final satisfaz os requisitos do
+Promotor e utilizadores 
+</li>
+<li>Pistas sobre melhorias a atingir em novos empreendimentos
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8-2" class="outline-3">
+<h3 id="sec-8-2"><span class="section-number-3">8.2</span> Arquivo de projetos atualizados</h3>
+<div class="outline-text-3" id="text-8-2">
+<p>
+(entrega de telas finais nas entidades licenciadoras) 
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-8-3" class="outline-3">
+<h3 id="sec-8-3"><span class="section-number-3">8.3</span> Manuais de equipamentos e certificados de vistorias.</h3>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> Professor do Departamento de Engenharia Civil, na
+Escola Superior de Tecnologia e Gestão de Leiria</div>
+
+
+</div>
+</div></div><div class="col-md-3"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-1">1. Introdução</a>
+<ul class="nav">
+<li>
+<ul class="nav">
+<li><a href="#sec-1-0-1">Websites de interesse</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Fase de análise de Viabilidade</a>
+<ul class="nav">
+<li><a href="#sec-2-1">2.1. Definição do âmbito</a>
+<ul class="nav">
+<li><a href="#sec-2-1-1">Elaboração de estudos de viabilidade</a></li>
+<li><a href="#sec-2-1-2">Avaliação do Empreendimento</a>
+<ul class="nav">
+<li><a href="#sec-2-1-2-1">Algumas técnicas específicas de apoio à decisão:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Implementação da Estratégia</a>
+<ul class="nav">
+<li><a href="#sec-3-1">3.1. Controlo de Custos</a></li>
+<li><a href="#sec-3-2">3.2. Contratação</a></li>
+<li><a href="#sec-3-3">3.3. Seleção e Aquisição de terrenos/instalações</a></li>
+<li><a href="#sec-3-4">3.4. Investigação dos terrenos/instalações selecionados</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Pré-Construção</a>
+<ul class="nav">
+<li><a href="#sec-4-1">4.1. Gestão de Projetos Técnicos</a></li>
+<li><a href="#sec-4-2">4.2. Preparação da Construção e Concursos</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. Construção</a>
+<ul class="nav">
+<li><a href="#sec-5-1">5.1. Inicialização</a></li>
+<li><a href="#sec-5-2">5.2. Implementação de um sistema de controlo</a>
+<ul class="nav">
+<li><a href="#sec-5-2-1">Monitorização de projetistas e executantes</a></li>
+<li><a href="#sec-5-2-2">Controlo de Alterações</a></li>
+<li><a href="#sec-5-2-3">Relatórios</a>
+<ul class="nav">
+<li><a href="#sec-5-2-3-1">Relatório Gestor-&gt;Promotor</a></li>
+<li><a href="#sec-5-2-3-2">Empreiteiro (diretor de obra), fiscalização, projetistas, laboratórios -&gt; Gestor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-5-3">5.3. Controlo de Qualidade</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Conclusão e Receção</a></li>
+<li><a href="#sec-7">7. Ocupação e Exploração</a></li>
+<li><a href="#sec-8">8. Revisão e Fecho</a>
+<ul class="nav">
+<li><a href="#sec-8-1">8.1. Relatório final</a></li>
+<li><a href="#sec-8-2">8.2. Arquivo de projetos atualizados</a></li>
+<li><a href="#sec-8-3">8.3. Manuais de equipamentos e certificados de vistorias.</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="author">Author: LMoura DRodrigues</p>
+<p class="date">Created: 2016-10-27 Thu 01:35</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">emacs</a> 24.4.51.2 (<a href="http://orgmode.org">Org</a> mode 8.0.3), website: <a href="http://www.ipleiria.pt/estg/">Escola Superior de Tecnologia e Gestão</a></p>
+</div>
+</footer>
+</body>
+</html>

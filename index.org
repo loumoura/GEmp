@@ -1,5 +1,5 @@
 #+Title: Empreendimento turístico
-#+AUTHOR: Luis Moura
+#+AUTHOR: Luis Moura, Diana Rodrigues
 #+Email: loumoura@gmail.com
 #+DESCRIPTION: Base de dados de vários sectores
 #+KEYWORDS:  org-mode
@@ -81,7 +81,7 @@ apoio a nenhum trabalho, seja ele académico ou não.
  
   
 #+begin_warning
-Este website encontra-se em atualização 
+Este website encontra-se em atualização. 
 #+end_warning
 
 * IN-PROGRESS A Ideia e a Equipa
@@ -91,6 +91,11 @@ alguns dos grupos participantes no processo de criação e estudo da
 viabilidade económica-financeira, ambiental e quais quer outros
 estudos que se venham a mostrar necessários no desenvolvimento do
 Empreendimento.
+
+#+begin_note 
+Nesta [[./fases.html][página]] ,encontra-se o resumo de todas as fases de um projeto, de
+acordo com os apontamentos do Professor António Duarte.  
+#+end_note
  
 
 ** O Empreendimento
@@ -101,9 +106,9 @@ Aire e Candeeiros]], perto do percurso pedestre da [[http://www.municipio-portod
 A aldeia será composta por um conjunto independente de casas, que têm
 como característica comum o fato de serem fabricadas a partir de
 contentores industriais usados. Uma ideia do tipo de casa pode ser
-vista na Figura 1 . [[fn:: A figura foi obtida do website
+vista na Figura 1 . [fn:: A figura foi obtida do website
 [[http://www.ecobuildingpulse.com/news/prefab-shipping-container-homes-made-to-order_t][EcoBuildingPulse]], e pertence a uma companhia americana que se
-especializa na reutilização de contentores para venda]]
+especializa na reutilização de contentores para venda]
 
 #+NAME: Container Home
 #+Caption: Exemplo de uma das casas a serem construídas

@@ -1,0 +1,560 @@
+#+Title: 
+#+Subtitle: ESTG - Departamento de Engenharia Civil
+#+AUTHOR: LMoura DRodrigues
+#+Email: 2121193@my.ipleiria.pt
+#+KEYWORDS: College, Engenharia Civil
+#+DESCRIPTION: Fases de um projeto 
+#+LANGUAGE: portuguese
+
+#+OPTIONS: num:5 whn:2 toc:4 H:6 title:nil
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">emacs</a> 24.4.51.2 (<a href="http://orgmode.org">Org</a> mode 8.0.3), website: <a href="http://www.ipleiria.pt/estg/">Escola Superior de Tecnologia e Gestão</a>
+
+
+#+BEGIN_HTML
+<p><a href="index.html"><small>Home</small></a></p>
+#+END_HTML
+
+
+#+begin_html
+<div class="page-header">
+  <h1 style=font-size:200%;font-family:HELVETICA;color:rgb(176,58,46);text-align:left>Gestão de Empreendimento <small>Fases de execução</small></h1>
+</div>
+#+end_html
+
+
+
+* Introdução 
+
+#+NAME: email
+#+begin_html
+<p style=font-size:80%;font-family:HELVETICA;color:rgb(69,90,135);text-align:right>Autores: <a href="mailto:2121193@my.ipleiria.pt">L.Moura </a>, <a href="mailto:2121198@my.ipleiria.pt">DRodrigues</a></p>
+<p>
+#+end_html
+
+
+
+Este trabalho é uma cópia parcial dos apontamentos do professor
+António Duarte [fn::Professor do Departamento de Engenharia Civil, na
+Escola Superior de Tecnologia e Gestão de Leiria], da classe de
+Gestão de Empreendimentos, do curso de Engenharia Civil da [[http://www.ipleiria.pt/estg/][ESTG]].
+
+É apresentado de uma forma sumária, as sete etapas decorrentes da
+elaboração e execução de um Empreendimento, com especial focus, na
+área da Engenharia Civil. 
+
+O conceito aqui apresentado, é o que mais se aproxima do que se poderá
+considerar as melhores práticas portuguesas. 
+
+#+NAME: block
+#+begin_html  
+<div class="well well-sm">
+<p style=font-size:100% >Este trabalho é uma cópia parcial dos apontamentos do professor António Duarte.</p>
+</div>
+#+end_html 
+
+*** Websites de interesse
+
+Grupo de websites nacionais e internacionais de interesse para a
+prática de gestão de projetos.
+
+
+#+NAME: link group
+
+| Nome                                         | Website      |
+|----------------------------------------------+--------------|
+| Project Management Institute                 | [[https://www.pmi.org][PMI]]          |
+| Associação Portuguesa de Gestão de Projectos | [[http://www.apogep.pt][APGP]]         |
+| Project Management Institute - Portugal      | [[http://pmi-portugal.org/pmipt/][PMI Portugal]] |
+
+
+
+
+* Fase de análise de Viabilidade
+
+#+BEGIN_HTML
+<a href="index.html" class="btn btn-primary btn-xs">Home</a>
+#+END_HTML
+
+
+
+** Definição do âmbito
+
+Processo interativo envolvendo gestor, consultores e Promotor. O
+promotor (devidamente esclarecido) tem que tomar muitas decisões nesta
+fase.               
+Estabelecer as metas a atingir, os meios a utilizar e os custos.
+
+1. Definir e justificar as caraterísticas do empreendimento Por vezes
+   é necessário recorrer a estudos especializados, por exemplo, estudos de mercados. 
+2. Identificar o enquadramento legal.  
+3. Produzir desenhos que descrevam o projeto    
+4. Definir modelo de funcionamento do empreendimento    
+5. Planeamento temporal (calendarização)      
+6. Métodos de construção, soluções técnicas. Consideração de alternativas.     
+7. Quantificar custos (estimativa)   
+8. Planear financiamento
+
+
+*** Elaboração de estudos de viabilidade
+
+*Análise de problemas de engenharia (técnicos), económico-financeiros,
+ambientais, políticos, sociais, comerciais, jurídicos, etc.* (2.2.2
+pág. 66)   
+É com base na análise dos resultados destes estudos que se constroem
+as diferentes variantes possíveis de um projecto de investimento,
+assim como o registo previsional das receitas e despesas de cada uma
+delas.
+
+
+*Viabilidade Técnica* Os estudos preliminares têm que se focar nos
+seguintes aspetos:
+
++ Opção por soluções tecnológicas adequadas Estudar várias
+  alternativas, por exemplo, estabelecer uma ligação rodoviária em
+  ponte ou em túnel sob uma linha de água.
++ Custos suficientemente calculados. Importante para programar o
+  financiamento.
++ A calendarização dos trabalhos é exequível. Fixa-se o prazo e depois
+  reúnem-se os meios para cumprir. Importante para calendarizar o
+  financiamento.
++ As questões ambientais são atendidas. Importante para a aprovação do
+  projeto.
+
+*Viabilidade Económico-Financeira*, Analisar as necessidades de
+financiamento e justificar o retorno financeiro previsto. Minimizar os
+riscos do investimento.
+
+*Viabilidade política e de enquadramento institucional*, O apoio
+político social ao empreendimento é muito importante: Existência de
+infra-estruturas que podem não ser um encargo do empreendimento:
+escolas, habitação, estradas Estímulos à geração de empregos com
+oferta de contrapartidas (cedência de terrenos, …) Apoios financeiros
+ao investimento a fundo perdido ou a taxa reduzida (apoios
+comunitários QREN Quadro de Referência Estratégica Nacional), isenção
+de impostos durante um determinado período de tempo.
+
+
+
+*** Avaliação do Empreendimento
+*Avalia se o empreendimento é exequível.* Aprova ou desaprova o
+projeto considerando conjuntamente todos os aspetos
+económico-financeiros, ambientais, de saúde e segurança, de qualidade
+e desempenho, etc.
+
+**** Algumas técnicas específicas de apoio à decisão:
+
+*Análise Multicritério - Problemas de decisão (ou indecisão)*
+
++ Modelação Matemática de problemas para encontrar a solução otimizada
+  (investigação operacional). 
++ A realização empreendimentos implica problemas muito complexos e
+  difíceis de resolver apenas pela intuição => *Análise Multicritério*
++ Os problemas a resolver têm uma realidade multidimensional onde
+  todos os aspetos relevantes devem ser individualizados e
+  considerados.
++ Os diversos critérios a ter em conta simultaneamente muitas vezes
+  são conflituantes.
+
+*Avaliação Financeira* Verificar se os proveitos são superiores aos
+custos, tendo em conta condições atuais e futuras. 
+
++ A importância de saber lidar em engenharia com um recurso universal
+  simbólico no qual os outros recursos podem ser convertidos >
+  dinheiro.
+
++ Implica a avaliação de ativos reais (corpóreos – edifícios,
+  incorpóreos – projetos, contratos, patentes, IMAGEM/BRAND…) que
+  permitam realizar mais-valias. A avaliação e monetarização de ativos
+  é um fator de erro.
+
+*Avaliação Custo/Benefício* Avalia o valor económico-social de
+projetos no setor público, ajuda a comparar alternativas em
+empreendimentos como transportes, educação, saúde. 
+
++ Considera os custos e os benefícios (perdas e ganhos / comerciais e
+  não comerciais) de cada grupo/membro da sociedade cujo bem-estar é
+  afetado pelos empreendimentos.
+
+*Métodos de Participação (Discussão Pública)* Avaliação usada em
+processos de planeamento cuja ação se foca numa discussão permanente
+entre as entidades envolvidas. Há uma participação ativa de grupos
+sociais e instituições governamentais. 
+
+
+*Avaliação Ambiental* Devido à dimensão de muitos dos projetos atuais
+a utilização de recursos não pode ser desligada da qualidade do meio
+ambiente. Interesse público defendido através de legislação e
+organizações ambientalistas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Implementação da Estratégia
+
+#+CAPTION: Gantt e SWOT
+#+NAME: double picture
+#+BEGIN_HTML
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://en.wikipedia.org/wiki/Gantt_chart" class="thumbnail">
+        <p> Gráfico Gantt, wikipedia</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/896px-GanttChartAnatomy.svg.png" alt="Gantt" style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://en.wikipedia.org/wiki/SWOT_analysis" class="thumbnail">
+        <p>Análise SWOT, wikipedia </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/SWOT_en.svg/2000px-SWOT_en.svg.png" alt="SWOT" style="width:350px;height:350px">
+      </a>
+    </div>
+  </div>
+</div>
+
+#+END_HTML
+
+
+
+Definição de como o projeto é desenvolvido e gerido
+
+** Controlo de Custos
+
+O orçamento tem que ser cumprido. É necessário estabelecer
+ procedimentos de controlo: 
++ Alterações (em fase de projeto técnico ou de construção)
+  acompanhadas de previsão de custos.
++ Por norma não se admite que o orçamento total seja excedido. Um
+  aumento num item tem de ser compensado por uma economia noutro.
++ A programação financeira deve ser atualizada permanentemente,
+  considerando as alterações no projeto e certezas adquiridas (por
+  exemplo atualização da taxa de inflação).
++ Assegurar que o empreiteiro tem a informação correta em tempo de
+  modo a evitar reclamações e indemnizações
++ Existência de um fundo de reserva capaz de fazer face a situações
+  imprevistas ou imprevisíveis (não serve para cobrir alterações ou
+  erros e omissões)
++ Evitar variações de preços por erros e omissões. Revisão de
+  projetos, responsabilização dos culpados e exigência de um
+  seguro. Fase de revisão do projeto pelo empreiteiro (transferindo
+  para ele a responsabilidade de detetar erros) e combinação de um
+  preço forfait.
++ Elaboração regular de relatórios comparando custos verificados com
+  os planeados. A evolução do desempenho financeiro torna-se
+  transparente, o gestor fica mais exposto a avaliação.
+
+
+** Contratação
+Escolher processos e métodos de contratação dos participantes no
+projeto técnico e na construção. Métodos de contratação:
++ *Tradicional:*  Promotor designa equipa projetista e a construção é
+  contratada por um empreiteiro, usualmente após um concurso. Promotor
+  > Projetista > Empreiteiro 
++ *Conceção e construção:*  O Promotor escolhe, usualmente após um
+  concurso ou negociação, um empreiteiro que se responsabiliza pelo
+  projeto técnico e deve fornecer a construção acabada. Promotor >
+  Empreiteiro com Projetista 
++ *Gestão sob contratação:* O promotor designa uma equipa projetista
+  como no processo tradicional, mas aumentada com a contratação e
+  gestão global das subempreitadas das diversas
+  especialidades. Promotor > Projetista com a responsabilidade de
+  gerir a construção 
++ *Gestão de construção:* A contratação e a gestão global das
+  subempreitadas das diversas especialidades é efetuada diretamente
+  pelo promotor.
+
+
+** Seleção e Aquisição de terrenos/instalações
+Tão cedo quanto possível porque influencia outras decisões Estabelecer
+as exigências e objetivos do terreno a utilizar nas construções:
+
++ Acessibilidade 
++ Existência de infraestruturas 
++ Proximidade de serviços complementares 
++ Disponibilidade de acordo com o planeamento territorial
++ Avaliar os locais de acordo com os critérios relevantes (se
+  necessário recorrendo à análise multicritério).
+
+
+** Investigação dos terrenos/instalações selecionados
+Investigação mais exaustiva dos terrenos para atualizar os estudos de
+ viabilidade:
+
+ + Levantamentos topográficos 
+ + Estudos geotécnicos e hidrogeológicos 
+ + Levantamento de sistemas de drenagens e redes técnicas 
+ + Levantamento de contaminações 
+ + Estudos de tráfego 
+ + Levantamento de propriedades adjacentes (direitos de opção,
+   fundações, drenagens, acessos, serventias, ruídos)
+ + Levantamentos arqueológicos 
+ + Levantamento de questões ambientais 
+ + Aspetos legais de licenciamento, restrições impostas pelos
+   instrumentos legais de ordenamento  
+   + PMOT – Planos municipais de Ordenamento do território
+   + PEOT – Planos especiais de Ordenamento do território 
+     - Planos de Ordenamento de Áreas protegidas 
+     - Planos de Ordenamento da Orla Costeira
+     - Planos de Ordenamento de Albufeiras
+   + PROT – Planos Regionais do ordenamento do território 
+   + REN – Reseva Ecológica Nacional 
+   + RAN – reserva Agrícola Nacional 
+   + Servidões e restrições de utilidade pública
++ Consulta de viabilidade à entidade licenciadora.
+ 
+
+* Pré-Construção
+
+#+NAME: progress bar
+#+begin_html  
+<div class="progress progress-striped active">
+  <div class="progress-bar" style="width: 45%"></div>
+</div>
+#+end_html 
+
+
+
+*Ponto da situação:* 
+No início desta fase existem: 
++ Uma equipa de consultores
++ Um terreno /instalações 
++ Existem levantamentos topográficos e geológicos dos terrenos 
++ Descrição do empreendimento, apoiada em esquemas técnicos adequados 
++ Existe um programa geral para o empreendimento 
++ Existe uma estimativa orçamental inicial 
++ Existe financiamento 
++ Foram consultadas as entidades licenciadoras (planeamento do
+  território, uso do solo, fornecedores de infra-estruturas diversas
+  (vias de comunicação, abastecimento água, energia, gás, etc) e são
+  conhecidos os requisitos a cumprir.
+
+
+** Gestão de Projetos Técnicos
+Elaboração de projetos de arquitetura e engenharia detalhados e
+completos (incluindo desenhos de execução, medições e orçamento,
+caderno de encargos).
+
+Atividades próprias desta fase a desenvolver pelo Gestor 
+- Seleção e Contratação de Projetistas e revisores de projetos Acordar
+  custos e obrigações
+- Conferir cumprimento das obrigações e autorizar pagamentos 
+- Supervisionamento e coordenação dos projetistas: 
+  + Calendarização das atividades de projeto, coordenando as diversas
+    especialidades. Definição de prazos. Elaborar um *diagrama de
+    GANTT*, figura [[double picture]].
+  + Estabelecer formas de apresentação de projetos (escalas, tamanhos
+    e formatos dos desenhos, pormenores, peças escritas, formato dos
+    ficheiros digitais…)
+  + Plano de reuniões periódicas para controlar e verificar o avanço
+    dos trabalhos. Exigir nomeação de diretores de projeto
+    responsáveis nos gabinetes projetistas.
+  + Promoção de reuniões em que intervenham projetistas de diversas
+    especialidades que interagem diretamente entre si.
+  + Identificar desvios relativamente aos custos considerados na
+    definição de âmbito do projeto.
+  
+
+** Preparação da Construção e Concursos
+Funções do Gestor:
+
++ Preparar os processos de concurso para escolha de diversos
+  intervenientes na fase da construção
+  - Elaborar programas de concursos e contratos. Juntar as
+    especificações técnicas (projetos). Verificar se na documentação
+    são assegurados os trabalhos relativos à fase antes da construção
+    principal, como demolições limpeza de terrenos, criação de
+    acessos, etc.
+  - Diversos tipos concursos consoante os intervenientes na
+    construção: empreitadas de construção fiscalização (técnica, HST,
+    financeira,…) fornecedores (mobiliário, cozinhas, decoração,
+    viaturas…)
+
++ Nomear os júris de concursos 
+  - Funções dos júris: 
+    + Selecionar lista de empresas a convidar 
+    + Abrir concurso 
+    + Esclarecer dúvidas colocadas pelos concorrentes 
+    + Classificar os concorrentes
+
++ Assegurar que o terreno de construção se encontra livre
++ Realizar encontros prévios com vencedores dos concursos para
+  estabelecer procedimentos e processos de comunicação
++ Estabelecer processo adequado para gestão da qualidade 
+  - O controlo de qualidade passa depois a ser responsabilidade de empreiteiros, subempreiteiros e fornecedores.
+
+
+
+
+* Construção
+
+#+NAME: Imagem da net
+#+BEGIN_HTML
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Fluor_construction_site_Shuaiba,_Kuwait.jpg" class="img-responsive" alt="https://en.wikipedia.org/wiki/Fluor_Corporation">
+#+END_HTML
+
+#+NAME: image caption
+#+BEGIN_HTML
+<p class="text-center"><small>Imagem: Fluor Corporation, wikipedia </small></p>
+#+END_HTML
+
++ Planear e Controlar empreitadas de construção, fiscalização e
+  projetistas. 
++ Dialogar com entidades financiadoras (as fases de financiamentos são
+  escalonadas em função da progressão da obra, a qual serve como
+  garantia). 
++ Dialogar com entidades licenciadoras
+
+
+
+** Inicialização 
+
+
++ Obter programa de trabalho do empreiteiro e verificar adequabilidade
+  ao programa do empreendimento (diagrama de Gantt)
++ Verificar se o corpo técnico do empreiteiro (diretor de produção,
+  diretor de obra, encarregados) está consciente dos seus deveres,
+  responsabilidades e formas de comunicação.
++ Verificar se o terreno pode ser entregue ao empreiteiro na data
+  prevista
++ Verificar que equipamentos/bens patrimoniais a preservar são
+  salvaguardados
++ Verificar que foram efetuados os devidos seguros
+
+
+** Implementação de um sistema de controlo
+
+Asegurar que empreiteiros, projetistas, fiscalização e consultores cumprem os
+objetivos em termos de calendarização, custos e qualidade.
+
+*** Monitorização de projetistas e executantes 
+
+Monitorizar o funcionamento dos intervenientes na construção de modo a
+assegurar: 
++ Haja cumprimento de deveres e obrigações. A informação deve chegar
+  atempadamente ao empreiteiro 
++ Sejam efetuadas reuniões regulares e reuniões extraordinárias quando
+  necessário, com elaboração de atas 
++ Não haja desvios orçamentais
+
+
+*** Controlo de Alterações
+
++ Identificar problemas em conjunto com a equipa
++ Promover a procura de soluções
+  - Existindo alterações > verificar todas as consequências, em
+    especial, implicações em termos contratuais, de prazo custos e
+    licenciamentos.
+  - Implementar um sistema de documentação, registo e controlo de
+    alterações:
+    + Atas de reuniões
+    + Sistema de numeração de desenhos técnicos que permita eliminar
+      os desenhos desatualizados
+    + Registar no livro de obra a entrega dos novos desenhos
+
+
+*** Relatórios
+Permitem tomar conhecimento do que acontece no empreendimento e
+consequentemente resolver problemas atempadamente e tomar medidas que
+melhorem o funcionamento do empreendimento.
+
+**** Relatório Gestor->Promotor
+O gestor apresenta ao Promotor relatórios periódicos e outros (sempre
+que ele os peça) cujas cópias devem ser enviadas às partes envolvidas
+sempre que conveniente. Deve incluir:
+
++ Progressão do projeto técnico ou construção 
++ Problemas surgidas e medidas para os resolver 
++ Outras decisões que tenham que ser tomadas 
++ Atualização de previsões de custos e prazos 
++ Controlo de custos
+
+
+_Prever a elaboração de outros relatórios:_ 
+*Relatórios semanais* com o resumo das atividades efetuadas durante a
+semana (iniciadas, em curso, terminadas). Referência às que são
+efetuadas na semana seguinte. Comparação entre executado e planeado
+com explicitação dos desvios.
+
+*Relatórios mensais* com o estado de desenvolvimento de cada atividade
+e a comparação do executado com o planeado com um apuramento dos
+desvios verificados no mês e dos desvios acumulados.
+
+
+**** Empreiteiro (diretor de obra), fiscalização, projetistas, laboratórios -> Gestor
+
++ Atas das reuniões periódicas/extraordinárias 
++ Autos de medição Relatórios de ensaios 
++ Documentos de homologação/certificação 
++ Pareceres de entidades diversas (projetistas,…) 
++ Relatórios semelhantes aos “outro relatórios” que o Gestor entrega
+  ao Promotor
+
+
+** Controlo de Qualidade
+
+Monitorar o cumprimento do plano de gestão de qualidade
+
+
+
+
+
+
+* Conclusão e Receção
+
+
+
++ Antes da receção da obra, deve verificar-se se os *equipamentos
+  instalados* funcionam conforme previsto projeto técnico. Pode haver
+  uma certa pressão a receção sem estes serviços estarem terminados.
++ Com a conclusão das empreitadas a fiscalização efetua a *vistoria da
+  obra* e procede à sua *receção provisória*.
++ Seguidamente efetua-se a *transferência* de responsabilidades *para
+  a entidade que irá ocupar e manter as instalações.*
++ Com a receção provisória inicia-se o *período de garantia da obra* (5 anos) findo o qual será efetuada a receção definitiva, sendo devolvido ao executante o depósito de garantia. São atos que devem ficar registados formalmente para efeito de contagem de prazos de garantia e atribuição de responsabilidades.
++ Durante o prazo de garantia, a entidade que ocupa e mantêm as
+  instalações deve preparar listas das deficiências encontradas,
+  trabalhos inacabados, materiais e trabalhos que não obedecem às
+  especificações.
+
+
+* Ocupação e Exploração
+
+Em geral envolve a ocupação por pessoas e depende da finalidade do
+empreendimento. As operações de manutenção devem ser previstas e
+planeadas
+
+
+* Revisão e Fecho
+
+** Relatório final
+
++ Descrição resumida e crítica acerca da forma como o empreendimento
+  decorreu (objetivo inicial, alterações, acontecimentos relevantes,
+  dificuldades encontradas e formas de resolução…) 
++ Comentário à forma usada nos contratos e sua adequação 
++ A estrutura organizacional e a adequação dos conhecimentos
+  especializados utilizados 
++ Análise do programa geral e comparação da calendarização prevista
+  com a executada 
++ Resumo dos sucessos, pontos mais fracos e lições que foi possível
+  tirar, nomeadamente do que diz respeito a custos, programação,
+  competências técnicas, qualidade, segurança e ambiente 
++ Crítica sobre o que se atingiu em relação aos objetivos
+  pré-definidos e se o produto final satisfaz os requisitos do
+  Promotor e utilizadores 
++ Pistas sobre melhorias a atingir em novos empreendimentos
+
+** Arquivo de projetos atualizados
+(entrega de telas finais nas entidades licenciadoras) 
+
+** Manuais de equipamentos e certificados de vistorias.
+
