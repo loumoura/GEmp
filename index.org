@@ -84,6 +84,16 @@ apoio a nenhum trabalho, seja ele académico ou não.
 Este website encontra-se em atualização. 
 #+end_warning
 
+*** Websites de Apoio a este documento
+#+NAME: Websites
+#+ATTR_HTML:   :align center
+| Nome                                       | Website |            Descrição |
+|--------------------------------------------+---------+----------------------|
+| Gestão de Empreendimento Fases de execução |    [[./fases.html][link]] | fases Empreendimento |
+| Georreferenciação                          |    [[./Georef.html][link]] |          Localização |
+
+
+
 * IN-PROGRESS A Ideia e a Equipa
 
 Elaboração provisória dos objetivos do Empreendimento, assim como
@@ -97,6 +107,9 @@ Nesta [[./fases.html][página]] ,encontra-se o resumo de todas as fases de um pr
 acordo com os apontamentos do Professor António Duarte.  
 #+end_note
  
+
+
+
 
 ** O Empreendimento
 O empreendimento consiste na instalação e exploração de uma *aldeia
@@ -280,22 +293,12 @@ Os consultores deverão integrar a Equipa de Projeto, desde o início, e
 manterem-se ao longo das diversas fases. Após o início das operações
 na Aldeia, uma nova equipa deve ser formada, de acordo com as
 necessidades das operações.
-+ Engenheiro do ambiente, de modo a aconselhar na integração do
++ *Engenheiro do ambiente*, de modo a aconselhar na integração do
   projeto no habitat local.
-+ Arquiteto com experiência em construção sustentável.
-+ Decorador de interiores com experiência em construção moderna.
-+ Empreiteiro: Devem ser convidados a estar presentes na Equipa de Projeto, duas
-  empresas de empreiteiros. O convite é feito tendo em conta a
-  _qualidade_ do trabalho que eles realizam. Ambos os empreiteiros têm
-  a posição de consultores, que para um deles se transformará posteriormente em
-  contrato para obra, após apresentação de /Orçamento/, em que será escolhido,
-  o que apresentar um menor preço.
-+ Representante da comunidade local
-+ Representante dos trabalhadores da Aldeia
-+ Advogado, com experiência a lidar com o Município de Porto de Mós e
-  que tenha conhecimentos a lidar com projetos que fiquem perto de
-  áreas protegidas, de modo a que seja facilitada a obtenção das
-  várias licenças necessárias.
++ *Arquiteto* com experiência em construção sustentável.
++ *Decorador de interior* com experiência em construção moderna.
++ *Advogado*, com experiência a lidar com projetos de construção.
+
 
 
  
