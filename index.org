@@ -43,7 +43,7 @@ SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
 
 
-* IN-PROGRESS Introdução 
+* DONE Introdução 
 
     
 #+begin_sidebar
@@ -337,7 +337,7 @@ serviços.
  
 
  
-* TODO Definição do Ambito
+* IN-PROGRESS Definição do Ambito
 
 #+NAME: Container Home II
 #+Caption: Exemplo de uma das casas a serem construídas. Imagem obtida do website: http://housely.com/evolution-shipping-container-homes/ 
@@ -410,7 +410,25 @@ vizinhança.
 
 Pessoas que gostam de fazer caminhadas ou btt na serra, também
 facilmente encontram no complexo, um espaço que associa-se ao seu
-estilo de vida.
+estilo de vida, aonde poderão descansar e pernoitar, após um dia de
+exercício.
+
+Quando se analiza a população alvo pela faixa etária, o grupo de
+possíveis clientes deverá estar entre os 20 e os 65 anos. Esta
+afirmação baseia-se nas exigências físicas que normalmente estão
+associadas à vida campestre e às atividades ao ar livre.
+
+Quanto ao sexo, ambos os sexos devem utilizar de igual modo as nossas
+instalações, no entanto, o sexo masculino poderá ter uma maior
+incidência, devido a ser ele o que mais pratica exercício na serra. No
+intanto, esta diferença vem-se a reduzir, visto existir um número
+crescente de indivíduos do sexo feminino, a praticarem
+atividades no exterior. 
+
+Em uma análise do poder de compra dos nossos clientes, ela aponta para
+elementos da classe média baixa e classe média. Embora a classe média
+alta e rica também possa vir a utilizar os nossos serviços, por uma
+questão de moda.
 
 ** Modelo de Funcionamento
 
