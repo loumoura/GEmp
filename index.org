@@ -339,6 +339,12 @@ serviços.
  
 * TODO Definição do Ambito
 
+#+NAME: Container Home II
+#+Caption: Exemplo de uma das casas a serem construídas. Imagem obtida do website: http://housely.com/evolution-shipping-container-homes/ 
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[http://housely.com/wp-content/uploads/2016/06/containersofhope1233-720x480-c.jpg]]
+
+
 Serão agora abordadas as características do Empreendimento, assim como
 os objetivos pretendidos, inclusivo os métodos de controlo que se pretendem vir a
 utilizar ao longo da vida do Empreendimento. 
