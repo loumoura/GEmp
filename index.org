@@ -1,8 +1,8 @@
 #+Title: Empreendimento turístico
 #+AUTHOR: Luis Moura, Diana Rodrigues
 #+Email: loumoura@gmail.com
-#+DESCRIPTION: Base de dados de vários sectores
-#+KEYWORDS:  org-mode
+#+DESCRIPTION: Planeamento de Empreendimento Turístico
+#+KEYWORDS:  Empreendimento, Projeto
 #+LANGUAGE:  portuguese
 #+OPTIONS:   H:4 num:2 toc:2
 
@@ -206,18 +206,23 @@ Georreferenciação de pontos ao longo do limite da propriedade
 
 
  São diversas as fases do Empreendimento, sendo mais tarde
- desenvolvido, com a colaboração de toda a equipa, uma análise mais
- aprofundada. Neste momento, é interesse desenvolver as metas em termos
- gerais do que é pretendido do projeto.
+desenvolvido, com a colaboração de toda a equipa, uma análise mais
+aprofundada. A tabela [[Milestone]],[fn::Tanto a tabela de Planeamento das
+Atividades como a de Previsão Orçamental para a fase inicial, serão
+atualizadas à medida que vamos estabelecendo os objetivos do projeto e
+os métodos a utilizar para os alcançar] apresenta a duração prevista para
+as várias fases do projeto. O estudo temporal, assim como o
+desenvolvimento do gráfico de Gantt, é feito no Capítulo
+[[Calendarização]], 
 
  #+NAME: Milestone
  #+CAPTION: Metas 
  #+ATTR_Latex:   :placement [h] :align l|c  
  | *Fase*                                           | *Duração*       |
  |--------------------------------------------------+-----------------|
- | Formação da Equipa                               | 3 meses         |
+ | Formação da Equipa                               | 4 meses         |
  | Processo de análise e desenvolvimento do projeto | 12 meses        |
- | Construção                                       | 6 meses         |
+ | Construção                                       | 18 meses        |
  | Atividades de inicio de exploração               | 2 meses         |
  | Adicionar 10 unidades à aldeia                   | final de 3 anos |
  | Tempo de vida do projeto                         | 50 anos         |
@@ -236,6 +241,8 @@ Georreferenciação de pontos ao longo do limite da propriedade
  unidades serão decoradas, algo que se espera não tenha um preço muito
  significativo.
 
+O desenvolvimento da análise financeira é feita ao longo deste
+trabalho e mais concretamente no capítulo [[Avaliação Financeira]] .
 
 
  #+NAME: Custo Inicial
@@ -273,17 +280,27 @@ Georreferenciação de pontos ao longo do limite da propriedade
   valia para o projeto. [fn:: Um dos requisitos para a obtenção do
   selo LEED, é que exista na equipa pelo menos uma pessoa certificada
   pelo USGC]
-
 + A experiência é mais valorizada que o grau académico. O Gestor deve
   ter pelo menos 10 anos de experiência em equipas de liderança de
   Empreendimentos na construção civil.
 + Capacidade de criação e liderança de uma equipa multidisciplinar. A
-  equipa será formada o mais cedo possível, e incluí _todos_ os
-  intervenientes ou os representantes destes, que de uma forma ou
-  outra, serão afetados pelo projeto. 
+  equipa será formada o mais cedo possível. 
 + Sentir-se à vontade a lidar com sistemas informáticos de informação
   centralizados (BIM), de modo que toda a equipa possa facilmente
   compartilhar, alterar, rever e criar o Projeto em conjunto.
++ De modo a que o Gestor se mantivesse à frente do projeto para além
+  da fase de Construção, seria uma mais valia que ele tivesse
+  conhecimentos de hotelaria e de supervisão das operações diárias no
+  âmbito de coordenação das equipas, contato com fornecedores,
+  incluíndo supervisão e controlo dos pagamentos a estes, etc. 
++ A nível da personalidade, deverá ser uma pessoa dinâmica e
+  carismática, com facilidade de coordenação das equipas, e de
+  resolução de qualquer conflito que possa surgir.
++ Para além dos conhecimentos informáticos, de modo a fazer a
+  supervisão da parte digital da integração BIM no projeto, o Gestor
+  de Projetos deve também ter outros conhecimentos informáticos, de
+  modo a poder fazer a supervisão do website do Empreendimento, e para
+  contato social (Facebook, Twitter, Google+, etc) com os clientes. 
 
 
 
@@ -294,17 +311,100 @@ manterem-se ao longo das diversas fases. Após o início das operações
 na Aldeia, uma nova equipa deve ser formada, de acordo com as
 necessidades das operações.
 + *Engenheiro do ambiente*, de modo a aconselhar na integração do
-  projeto no habitat local.
-+ *Arquiteto* com experiência em construção sustentável.
-+ *Decorador de interior* com experiência em construção moderna.
+  projeto no habitat local. O engenheiro do ambiente deverá coordenar
+  o seu trabalho com o arquiteto, de modo a conseguir um enquadramento
+  do projeto na paisagem local, evitando ao máximo alterar as
+  condições naturais existentes.
++ *Arquiteto* com experiência em construção sustentável em será
+  preferível que tenha tido contato com construções que tenham obtido a
+  certificação LEED.
++ *Decorador de interior* com experiência em construção moderna, que
+  ficará encarregue da decoração dos ambientes interiores das casas e
+  das instalações principais. Deverá coordenar o trabalho interior com
+  o Arquiteto e com o Engenheiro do Ambiente.
 + *Advogado*, com experiência a lidar com projetos de construção.
+  
+** Contratação
 
-
+O modelo de contratação a utilizar no projeto é o *método
+tradicional*, em que após a seleção da equipa de consultores com
+responsabilidades específicas de criação do projeto, é depois
+selecionado um empreiteiro após um concurso. 
+Os interesses do Promotor, são defendidos durante a duração do
+projeto, pelo *Gestor de Projeto*, que se encontra a trabalhar
+diretamente para o promotor, recebendo um salário mensal pelos seus
+serviços.
+ 
 
  
 * TODO Definição do Ambito
 
+Serão agora abordadas as características do Empreendimento, assim como
+os objetivos pretendidos, inclusivo os métodos de controlo que se pretendem vir a
+utilizar ao longo da vida do Empreendimento. 
+Ao longo desta secção do documento serão analisados: 
+
++ Caraterísticas do empreendimento 
++ Identificação do enquadramento legal.
++ Modelo de funcionamento do empreendimento
++ Planeamento temporal (calendarização)
++ Métodos de construção, soluções técnicas. Consideração de alternativas.
++ Quantificação de custos (estimativa)
++ Planeamento financiamento
+
+No entanto, a abordagem de algumas das características acima
+referidas, não está limitada só a esta secção do documento, pois pela
+sua própria natureza, como pelo próprio método de desenvolvimento deste
+documento, requerem que sejam abordadas à luz de diferentes situações
+e de acordo com a quantidade de informação disponível no momento. 
+
 ** Caraterísticas e Objetivos
+A [[http://www.worldgbc.org/files/8613/6295/6420/World_Green_Building_Trends_SmartMarket_Report_2013.pdf][tendência]] do sector imobiliário a nível mundia é clara. Existe um
+*forte interesse do público pelo meio ambiente*, que certamente deverá
+aumentar, à medida que os efeitos das alterações climáticas são
+sentidas e intensificadas. O número de empresas e pessoas dedicadas à
+construção verde,
+tem vindo a aumentar mundialmente. E este aumento só existe por causa
+do atrás referido interesse do público.
+
+
+Desta tendência mundial para a utilização de produtos verdes,
+que incluindo na lista estão as próprias edificações, surge a ideia da
+criação de um complexo de casas verdes, em plena Serra de Aire. O
+complexo fica localizado em plena zona rural, perto da estrada
+nacional que vai de Porto-de-Mós para Alvados. 
+O caminho desde a estrada nacional até ao local do complexo, é feito
+em caminho de terra batida e pedras, que no entanto, e mesmo em época de
+chuvas, e devido à grande quantidade de pedra de grandes dimensões,
+não oferece problemas de acesso rodoviário a carros ligeiros.[fn::No
+entanto, poderá existir problemas durante o fornecimento de materiais,
+tanto durante a construção como durante a fase de exploração, devido
+às dimensões e tipo de veículos usados pelas empresas que fazem a
+entrega de bens.]      
+ 
+No entanto é de prever que algumas reparações tenham que ser feitas
+anualmente.
+
+** Público Alvo
+
+O público alvo são as pessoas que tentam levar uma vida sustentável e
+que pela natureza do Empreendimento, e a forma como ele está inserido
+em uma zona natural, sintam um apelo especial por este tipo de
+projetos.
+
+No entanto, devido à solitude proporcionado pelo local, e à beleza da
+paisagem, o Empreendimento também poderá a vir a servir casais à
+procura de romantismo. Nesse mesmo segmento do público, também é
+possível proporcionar nos campos do complexo, espaço para
+casamentos. No entanto, este último será a evitar, por causa do
+barulho que normalmente é causado por este tipo de festas, que viria a
+pôr em causa a filosofia do projeto, que pretende acima de tudo ser um
+espaço de harmonia e respeito para com a natureza e para com a
+vizinhança.
+
+Pessoas que gostam de fazer caminhadas ou btt na serra, também
+facilmente encontram no complexo, um espaço que associa-se ao seu
+estilo de vida.
 
 ** Modelo de Funcionamento
 
