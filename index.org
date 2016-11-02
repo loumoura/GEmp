@@ -432,6 +432,88 @@ questão de moda.
 
 ** Modelo de Funcionamento
 
+O complexo encontra-se dividido em 11 lotes, em que um dos lotes, que
+apresenta uma área ligeiramente superior aos outros, vai ser usado
+para a construção do edificio central que albergará o escritório,
+recepção, oficina de manutenção e bar. Também neste lote será criada
+uma área exterior comum para os residentes e visitantes do complexo,
+com parque de merendas e piscina biológica.             
+Os restantes lotes serão usados para a construção de casas.   
+
+
+*** Edificio Central
+
+Situado no maior dos 11 lotes, estratégicamente localizada no centro do
+complexo, o Edificio Central é o núcleo de toda a
+atividade. Dele fazem parte:
+
+**** Escritório     
+                
+Centro administrativo do complexo, será usado pelo Gestor de Projeto
+ [fn::Em fase de Exploração, o Gestor de Projeto toma o cargo de
+Administrador Geral para com o Empreendimento] 
+em fase de Exploração. Em ele serão arquivados os documentos legais e
+ não legais, necessários ao dia-a-dia do complexo. O escritório também
+ servirá de espaço para reuniões administrativas.
+
+**** Recepção
+
+**** Bar
+
+**** Piscina Biológica
+
+
+#+NAME: Bio Pool
+#+Caption: Exemplo de uma piscina biológica, em que o elemento "água", mistura-se com o elemento "terra". fonte de imagem: https://en.wikipedia.org/wiki/Natural_pool  
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[./images/bio-pool.png]]
+
+
+
+#+begin_quote 
+"Os *custos* variam muito, dependente do tamanho da instalação e dos
+materiais escolhidos. Estruturas em betão são mais caros do que a
+impermeabilização com uma tela plástica especial – afinal o método
+mais comum para a construção de piscinas biológicas.
+
+Com a base em cerca de 150 projectos realizados de piscinas biológicas
+em Portugal pode-se considerar um preço de orientação por metro
+quadrado construído varia entre _120 e 125 Euro_ (excluindo apenas o
+valor da água do primeiro enchimento)."
+
+fonte: [[http://www.biopiscinas.pt/faqs1.html][Biopiscinas]]
+#+end_quote
+
+**** Parque de Merendas
+
+**** Oficina
+
+**** Canil
+
+É esperado que muito dos nossos clientes sejam donos de animais de
+estimação. Para que eles possam disfrutar de uma estadia descansada e 
+sem preocupações, taremos ao dispor dos nossos clientes um canil, que
+pelo qual, será cobrado uma _taxa extra de 5 euros_ ao dia. Este valor
+incluí o fornecimento de ração sólida aos animais. Não é permitido
+qualquer outro tipo de ração dentro do canil, de modo a assegurar as
+condições de higiene e saúde dos animais. 
+Na altura em que o animal de estimação é deixado ao nosso cuidado, o
+dono deverá assinar um documento preparado pelo nosso advogado, em que
+nos libera de todas as responsabilidades caso o animal venha a
+contrair alguma doença por estar em contato com outros animais no
+canil.
+
+
+
+
+*** Casas
+
+
+*** Área comum e Acessos
+
+
+
+
 ** Método de Construção
 
 *** Soluções Técnicas
