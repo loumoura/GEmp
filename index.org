@@ -4,7 +4,7 @@
 #+DESCRIPTION: Planeamento de Empreendimento Turístico
 #+KEYWORDS:  Empreendimento, Projeto
 #+LANGUAGE:  portuguese
-#+OPTIONS:   H:4 num:2 toc:2
+#+OPTIONS:   H:6 num:4 toc:4
 
 #+SETUPFILE: styles/readtheorg/theme-readtheorg.setup
 
@@ -468,7 +468,20 @@ em fase de Exploração. Em ele serão arquivados os documentos legais e
 #+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
 [[./images/bio-pool.png]]
 
+#+Name: Piscina Biológica
+#+begin_quote
+A piscina biológica "é um lago de banho 
+artificial, impermeabilizado com uma tela plástica e composto por uma
+zona destinada ao banho e outra à depuração de água por processos
+biológicos e mecânicos. Ou seja, pode servir para natação ou fins
+ornamentais e de lazer, mantendo sempre um aspecto visual natural – a
+depuração da água é executada, também, graças às espécies aquáticas
+nela instaladas." fonte: [[http://greensavers.sapo.pt/2014/05/22/a-nova-moda-das-piscinas-biologicas-com-video/][GreenSavers]]
+#+end_quote
 
+A piscina é um local que se pretende de convívio para toda a família,
+em que no Verão instalaremos um pequeno bar, aonde os nossos hóspedes
+poderão obter bebidas refrescantes.
 
 #+begin_quote 
 "Os *custos* variam muito, dependente do tamanho da instalação e dos
