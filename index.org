@@ -443,6 +443,12 @@ Os restantes lotes serão usados para a construção de casas.
 
 *** Edificio Central
 
+
+#+NAME: Edeficio Central
+#+Caption: Imagem do tipo de interior pretendido no Edifício Central. fonte: http://organics.org
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[http://organics.org/wp-content/uploads/best-shipping-container-homes-ideas-810x641.jpg]]
+
 Situado no maior dos 11 lotes, estratégicamente localizada no centro do
 complexo, o Edificio Central é o núcleo de toda a
 atividade. Dele fazem parte:
