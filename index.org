@@ -463,8 +463,43 @@ em fase de Exploração. Em ele serão arquivados os documentos legais e
  servirá de espaço para reuniões administrativas.
 
 **** Recepção
+     
+Um balcão, bastantes elementos naturais, como madeira e plantas e a
+ideia que quem nos visita, acabou de entrar em um sitio especial e
+diferente. A recepção terá sempre um funcionário de serviço, que
+durante a noite ou em períodos de menor atividade, apoiará outros
+serviços (desde que mantenha a sua posição de proximidade ao telefone
+e ao balcão).
+
+
 
 **** Bar
+Sala com ambiente de serra, decorado com peças de arte típicas da
+região, e com um ambiente acolhedor, o bar é um sítio para toda a
+família poder tomar o pequeno almoço (incluído no preço da estadia),
+ou almoçar e jantar, uma refeição rápida, em que a especialidade será
+comida vegetariana.
+
+O horário das refeições não está limitado, sendo possível a qualquer
+altura, fazer o pedido. Desta maneira, pretende-se servir toda uma
+gama de clientela, que depois de um dia de atividades desportivas na
+serra com horário imprevisível, sinta a necessidade de alimento depois
+do esforço.
+
+O bar fica situado na parte da frente do Edifício Central, com vista
+para a serra. No exterior, um grupo de mesas de esplanada em madeira,
+com bancos também em madeira, estão dispostas ao perto da entrada
+principal do edifício, de modo a receber a quem nos visitar para uma
+refeição.     
+
+Para além das refeições rápidas, o bar também dispõe de um menu de
+vinhos e cervejas, tanto doméstico como importado.
+ 
+Uma porta exterior, de acesso só a funcionários, dará acesso da
+cozinha do bar ao Parque de Merendas e Piscina, de modo a servir os
+clientes que se encontrem instalados no complexo e estejam a usar
+aquele espaço.
+
 
 **** Piscina Biológica
 
@@ -503,9 +538,50 @@ valor da água do primeiro enchimento)."
 fonte: [[http://www.biopiscinas.pt/faqs1.html][Biopiscinas]]
 #+end_quote
 
+Durante o Verão, e durante o período das 10 da manhã até às 5 da
+tarde, a piscina terá um nadador-salvador. Fora desse horário, a
+piscina continua a ser acessível aos hóspedes. Vários avisos serão
+espalhados ao redor da piscina, a avisar que fora do horário de vigia
+do nadador salvador, é da inteira responsabilidade dos utilizadores,
+zelarem pela própria segurança e dos seus. 
+
+Para evitar que aconteçam acidentes com crianças fora das horas de
+vigia, um fence de aproximadamente 1 metro de altura, será colocado em
+redor da piscina.
+
 **** Parque de Merendas
 
+Localizado nas traseiras do edifício, perto da Piscina Biológica,
+o Parque das Merendas é um espaço para os utilizadores do complexo,
+poderem estar com a familia. 
+No Parque das Merendas serão instaladas várias mesas e bancos de
+madeira, e para cada uma das mesas, será dedicado um assador, feito em
+tijoleira, com aproximadamente 1 metro de altura (mantendo assim um
+nível de segurança em relação às crianças que se encontrem a brincar
+no Parque.
+
+Para as crianças, no topo de uma árvore, será construído um castelo em
+madeira, com acesso através de cordas, criando assim em espaço para as
+crianças criarem as suas próprias histórias.
+ 
+No Parque, não haverá serviço de bar a não ser em ocasiões especiais e
+que tenham sido previamente marcadas. No entanto, é possível comprar
+lenha e carvão no bar (que será guardado perto da Oficina).
+
 **** Oficina
+Pequeno espaço localizado no Edifício Central, de acesso por uma zona
+discreta de modo a não atrapalhar a estadia dos nossos clientes, a
+Oficina é o lugar aonde se guarda as ferramentas e equipamento
+necessário para as pequenas reparações e manutenção do complexo.
+
+Entre as ferramentas e equipamento, podemos encontrar uma moto serra,
+máquina de cortar a relva, jato de água à pressão, máquina de soldar,
+etc.
+
+Este equipamento estará ao serviço de uma pessoa encarregue por zelar
+pelos imóveis do complexo assim como pelos seus jardins. 
+Reparações de grande porte, serão contratadas a empresas
+especializadas. 
 
 **** Canil
 
@@ -536,6 +612,19 @@ canil.
 ** Método de Construção
 
 *** Soluções Técnicas
+
+O terreno do complexo fica situado em zona rural, a aproximadamente
+200 metros da habitação mais próxima. No local não existe nem sistema
+de esgotos, água ou electricidade, e que portanto, terá que ser
+trazida para o local de construção.
+
+No entanto, através da instalação e uso de
+[[https://pt.wikipedia.org/wiki/Painel_solar_fotovoltaico][Painéis solares fotovoltaicos]] distribuídos por todas as casas e por o
+complexo, será possível satisfazer as necessidades mínimas  de energia
+dos nossos clientes e das operações diárias, como atividades do
+escritório e receção. No entanto, é de supor que a necessidade de
+energia para a manutenção do bar, seja superior ao máximo de energia
+possível de extrair dos painéis. 
 
 ** Análise SWOT
 
