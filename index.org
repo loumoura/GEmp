@@ -94,7 +94,7 @@ Este website encontra-se em atualização.
 
 
 
-* IN-PROGRESS A Ideia e a Equipa
+* DONE A Ideia e a Equipa
 
 Elaboração provisória dos objetivos do Empreendimento, assim como
 alguns dos grupos participantes no processo de criação e estudo da
@@ -217,7 +217,7 @@ desenvolvimento do gráfico de Gantt, é feito no Capítulo
 
  #+NAME: Milestone
  #+CAPTION: Metas 
- #+ATTR_Latex:   :placement [h] :align l|c  
+ #+ATTR_HTML:   :align center
  | *Fase*                                           | *Duração*       |
  |--------------------------------------------------+-----------------|
  | Formação da Equipa                               | 4 meses         |
@@ -247,17 +247,17 @@ trabalho e mais concretamente no capítulo [[Avaliação Financeira]] .
 
  #+NAME: Custo Inicial
  #+CAPTION: Previsão Orçamental para fase inicial
- #+ATTR_Latex:   :placement [h] :align l|c  
+ #+ATTR_HTML:   :align center  
  |   | *Descrição*                                      | *Preço (euros)* |
  |---+--------------------------------------------------+-----------------|
  |   | Obtenção e preparação do terreno                 |          100000 |
  |   | Obtenção de 10 contentores usados                |           25000 |
  |   | Preparação das 10 unidades (interior e exterior) |          100000 |
  |   | Pagamento à equipa                               |           60000 |
- |   | Construção da Estação central                    |           25000 |
- |   | Licenças, impostos e taxas                       |           10000 |
- |   | Diversos                                         |           35000 |
- | # | *Total*                                          |          355000 |
+ |   | Construção da Estação central                    |          100000 |
+ |   | Licenças, impostos e taxas                       |           20000 |
+ |   | Diversos                                         |           75000 |
+ | # | *Total*                                          |          480000 |
  #+TBLFM: @9$3=vsum(@2..@8)
 
  A tabela [[Custo Inicial]] apresenta os custos esperados até ao inicio das
@@ -335,6 +335,27 @@ projeto, pelo *Gestor de Projeto*, que se encontra a trabalhar
 diretamente para o promotor, recebendo um salário mensal pelos seus
 serviços.
  
+
+** Funcionários
+
+ Grupo de colaboradores, a trabalharem diretamente para a gerência do
+ Empreendimento, recebendo um salário mensal ou de acordo com os
+ serviços prestados. 
+
+
+ #+NAME: Lista dos Funcionários do Complexo
+ #+CAPTION: Lista dos Funcionários do Complexo
+ #+ATTR_HTML:   :align center
+ | *Descrição*          | *Quantidade (Verão)* | *Quantidade (Inverno)* |
+ |----------------------+----------------------+------------------------|
+ | Funcionário do Bar   |                    3 |                      1 |
+ | Administrativo       |                    1 |                      1 |
+ | Recepção             |                    2 |                      2 |
+ | Nadador Salvador     |                    1 |                      0 |
+ | Oficina e Manutenção |                    2 |                      1 |
+ | Limpeza              |                    2 |                      2 |
+ 
+
 
  
 * IN-PROGRESS Definição do Ambito
@@ -603,28 +624,50 @@ canil.
 
 *** Casas
 
+#+NAME: Container Home III
+#+Caption: Exemplo de uma das casas a serem construídas. Imagem obtida do website: http://www.niftyhomestead.com
+#+ATTR_HTML: :alt casa :title Casa Tipo III  :align center :width 600
+[[./images/container-2.png]]
+
+
+
+
 
 *** Área comum e Acessos
 
+A área comum, é de livre acesso ao publico, e incluí o caminho de
+acesso ao bar localizado no Edifício Principal. O estacionamento é
+limitado, no entanto, fora do complexo, existem vários lugares que
+podem ser utilizados para estacionamento, sendo atualmente já
+utilizados por visitantes da Serra de Aire.
 
+O caminho dentro do complexo, será em terra batida, com as mesmas
+características dos acessos existentes. Como referido anteriormente, o
+maior problema com esta escolha deve-se a dificuldades nas entregas de
+mercadorias em altura de chuva se for utilizado um camião, havendo
+mesmo a possibilidade dele ficar preso na lama. No entanto, não deverá
+nenhum problema se for utilizado uma carrinha.
 
 
 ** Método de Construção
 
-*** Soluções Técnicas
+*** Soluções Técnicas 
 
-O terreno do complexo fica situado em zona rural, a aproximadamente
-200 metros da habitação mais próxima. No local não existe nem sistema
-de esgotos, água ou electricidade, e que portanto, terá que ser
-trazida para o local de construção.
+**** Painéis Solares Fotovoltaicos
 
-No entanto, através da instalação e uso de
-[[https://pt.wikipedia.org/wiki/Painel_solar_fotovoltaico][Painéis solares fotovoltaicos]] distribuídos por todas as casas e por o
-complexo, será possível satisfazer as necessidades mínimas  de energia
-dos nossos clientes e das operações diárias, como atividades do
-escritório e receção. No entanto, é de supor que a necessidade de
-energia para a manutenção do bar, seja superior ao máximo de energia
-possível de extrair dos painéis. 
+ O terreno do complexo fica situado em zona rural, a aproximadamente
+ 200 metros da habitação mais próxima. No local não existe nem sistema
+ de esgotos, água ou electricidade, e que portanto, terá que ser
+ trazida para o local de construção.
+
+ No entanto, através da instalação e uso de
+ [[https://pt.wikipedia.org/wiki/Painel_solar_fotovoltaico][Painéis solares fotovoltaicos]] distribuídos por todas as casas e por o
+ complexo, será possível satisfazer as necessidades mínimas  de energia
+ dos nossos clientes e das operações diárias, como atividades do
+ escritório e receção. No entanto, é de supor que a necessidade de
+ energia para a manutenção do bar, seja superior ao máximo de energia
+ possível de extrair dos painéis. 
+
 
 ** Análise SWOT
 
