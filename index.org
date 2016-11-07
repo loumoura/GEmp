@@ -669,6 +669,15 @@ nenhum problema se for utilizado uma carrinha.
  possível de extrair dos painéis. 
 
 
+**** Casa 
+
+#+NAME: Detail House
+#+Caption: Corte tipíco de uma parede e chão das Casas 
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[./images/detail.png]]
+
+
+
 ** Análise SWOT
 
 * TODO Enquadramento Legal
