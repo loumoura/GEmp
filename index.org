@@ -624,11 +624,40 @@ canil.
 
 *** Casas
 
+As casas, em um total de 10 na primeira fase, serão distribuídas por
+10 lotes ao longo de um caminho em terra batida, que percorre o
+complexo no seu comprimento, dividindo a área do complexo em duas.
+
+
+
 #+NAME: Container Home III
 #+Caption: Exemplo de uma das casas a serem construídas. Imagem obtida do website: http://www.niftyhomestead.com
 #+ATTR_HTML: :alt casa :title Casa Tipo III  :align center :width 600
 [[./images/container-2.png]]
 
+A análise quanto ao método construtivos das casas, é feita no Secção
+[[Casa]] deste trabalho.
+
+Algumas das vantagens de uma construção a partir de contentores
+usados:
+
++ *Preço*, pois é possível adquerir um contentor usado por 2,500 euros
+  ou menos. Isso significa uma poupança em relação à uma estrutura de uma
+  construção  tradicional. Embora exista várias modificações a serem
+  feitas aos contentores, como aberturas para portas e janelas e
+  reforço estrutural caso necessário, a diferença monetária ainda se
+  mostra bastante significativa.
++ *Qualidade e Segurança*, e por qualidade, perceba-se os níveis e
+  objetivos que são pretendidos para o complexo. As casas ao terem a
+  sua origem em contentores, criam uma imagem de marca para o
+  Empreendimento, que pode ser explorada em programas de marketing. Em
+  referência à segurança, o fato de ser uma estrutura independente,
+  sólida, e estruturalmente segura em que o corpo da estrutura age
+  como um todo em não como membros independentes, faz com seja um
+  excelente método de construção para zonas sísmicas como é o caso do
+  nosso país. 
++ *Tempo* de construção é muito inferior ao de uma construção
+  tradicional visto a estrutura já se encontrar feita. 
 
 
 
@@ -677,8 +706,61 @@ nenhum problema se for utilizado uma carrinha.
 [[./images/detail.png]]
 
 
+Como já referido, as casas serão fabricadas a partir de contentores
+usados. As vantagens de usar uma estrutura metálica já existente são
+numerosas, e encontram-se referidas na secção [[Casas]] deste trabalho
+
+Como base de suporte para (_fundações_)  a casa, será construída
+uma plataforma em betão armado, com aproximadamente 20 cms de altura a
+partir do terreno e na parte da frente da casa, criando assim um
+degrau em betão armado, que depois pode ser revestido com madeira,
+caso seja decidido usar a plataforma para esplanada privada da casa.
+Nas zonas laterais, a fundação ficará ligeiramente mais alta que o
+terreno (o suficiente para que a água da chuva escorra naturalmente
+por gravidade), tal como na figura [[Detail House]].
+
+Tratando-se de uma zona calcária com bastante fissuração nas rochas
+existentes no terreno, e sendo esta uma zona de bastante formações
+geológicas como algares e grutas, e estando as casas situadas em
+terreno de maior elevação quando comparado com a vizinha imediata, não
+se prevê que exista problemas com o nível freático, no entanto, a
+plataforma de betão deverá ser assente no topo de um manto de pelos
+menos 15 cms de inertes, que poderão ser extraídos da zona do
+complexo.
+
+As paredes, exteriores, devem ser lixadas, removendo completamente a
+pintura existente nos contentores, para depois ser aplicado uma mão de
+primário, e posteriormente duas mãos de tinta de cor a ser decidida pelo
+arquiteto e decorador. No parte interior da parede exterior, serão
+aplicados placas de isolamento, de espessura a ser determinada após
+análise tecnica quanto à exposição solar, exposição aos ventos e
+outras características que possam afetar o isolamento térmico da casa.
+
+
+O telhado da casa deverá ser feito de EPDM, de forma a poder
+suportar o painel solar e a movimentação de trabalhadores no telhado. 
+
+
 
 ** Análise SWOT
+A análise SWOT é apresentada na Figura [[swot]].
+
+#+NAME: swot
+#+Caption: Análise SWOT
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[./images/swot.png]]
+
+
+
+** Canvas
+
+O canvas para o trabalho é apresentado na Figura [[canvas]].
+
+#+NAME: canvas
+#+Caption: Canvas
+#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+[[./images/canvas.png]]
+
 
 * TODO Enquadramento Legal
 
