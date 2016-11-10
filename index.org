@@ -747,11 +747,27 @@ arquiteto e decorador. No parte interior da parede exterior, serão
 aplicados placas de isolamento, de espessura a ser determinada após
 análise tecnica quanto à exposição solar, exposição aos ventos e
 outras características que possam afetar o isolamento térmico da casa.
+No interior, as paredes serão revestidas por placas de gesso, sendo
+estas resistentes à humidade, em locais como a casa de banho e
+cozinha. Nas zonas do chuveiro, o revestimento da parede, chão e teto,
+será feito,com placas de cimento, aparafusadas a barras de metal, sendo
+posteriormente nivelada a superfície, de modo a receber o azulejo.
 
+O chão da(s) casa(s) será em piso flutuante, com o tipo de madeira e cor a
+ser decidido pelo arquiteto e o decorador de interiores.. O piso será
+assente no topo de uma camada rígida de isolamento e de uma película
+de polyurethane de 6mm. 
 
-O telhado da casa deverá ser feito de EPDM, de forma a poder
-suportar o painel solar e a movimentação de trabalhadores no telhado. 
+O telhado da casa deverá ser revestido com EPDM, de forma a poder
+suportar o painel solar e a movimentação de trabalhadores. Como opção,
+e em certas condições, pode-se usar uma camada de
+5 cm de gravilha do rio, de forma a proteger a película de EPDM da
+exposição solar. 
 
+Janelas em aluminio, com vidro duplo enchido com argon. Portas
+exteriores em carvalho e planas. Portas interiores em MDF, preparadas
+para receber pintura de acordo com o arquiteto e decorador de
+interiores. 
 
 
 ** Análise SWOT
@@ -812,7 +828,9 @@ O canvas para o trabalho é apresentado na Figura [[canvas]].
 
 * TODO Quantificação de Custos
 
-* TODO Calendarização
+* IN-PROGRESS Calendarização
+  Estudo em Progresso e será incluído na parte 3 do Projeto de
+  Investimento
 
 * TODO Estudos de Viabilidade
 
@@ -824,7 +842,9 @@ O canvas para o trabalho é apresentado na Figura [[canvas]].
 
 ** Viabilidade Económica e Financeira
 
-* TODO Avaliação Financeira
+* IN-PROGRESS Avaliação Financeira
+  Estudo em Progresso e será incluído na parte 3 do Projeto de
+  Investimento
 
 * TODO Organograma de Gestão do Empreendimento
 
