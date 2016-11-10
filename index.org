@@ -1,4 +1,5 @@
 #+Title: Empreendimento turístico
+#+Subtitle: Aldeia Recanto da Natureza
 #+AUTHOR: Luis Moura, Diana Rodrigues
 #+Email: loumoura@gmail.com
 #+DESCRIPTION: Planeamento de Empreendimento Turístico
@@ -386,7 +387,7 @@ documento, requerem que sejam abordadas à luz de diferentes situações
 e de acordo com a quantidade de informação disponível no momento. 
 
 ** Caraterísticas e Objetivos
-A [[http://www.worldgbc.org/files/8613/6295/6420/World_Green_Building_Trends_SmartMarket_Report_2013.pdf][tendência]] do sector imobiliário a nível mundia é clara. Existe um
+A [[http://www.worldgbc.org/files/8613/6295/6420/World_Green_Building_Trends_SmartMarket_Report_2013.pdf][tendência]] do sector imobiliário a nível mundial é clara. Existe um
 *forte interesse do público pelo meio ambiente*, que certamente deverá
 aumentar, à medida que os efeitos das alterações climáticas são
 sentidas e intensificadas. O número de empresas e pessoas dedicadas à
@@ -442,7 +443,7 @@ associadas à vida campestre e às atividades ao ar livre.
 Quanto ao sexo, ambos os sexos devem utilizar de igual modo as nossas
 instalações, no entanto, o sexo masculino poderá ter uma maior
 incidência, devido a ser ele o que mais pratica exercício na serra. No
-intanto, esta diferença vem-se a reduzir, visto existir um número
+entanto, esta diferença vem-se a reduzir, visto existir um número
 crescente de indivíduos do sexo feminino, a praticarem
 atividades no exterior. 
 
@@ -453,6 +454,16 @@ questão de moda.
 
 ** Modelo de Funcionamento
 
+O empreendimento turístico irá laborar 365 dias por ano, havendo
+necessidade do envolvimento de inúmeros colaboradores para o bom
+funcionamento dos serviços oferecidos ao cliente, assim as diferentes
+secções, funcionaram de forma distinta, com horários e recursos
+humanos conforme as necessidades.
+
+No que diz respeito as instalações da aldeia hoteleira e turística é
+composta por um conjunto independente de casa pré-fabricadas a partir
+de contentores.
+
 O complexo encontra-se dividido em 11 lotes, em que um dos lotes, que
 apresenta uma área ligeiramente superior aos outros, vai ser usado
 para a construção do edificio central que albergará o escritório,
@@ -460,6 +471,7 @@ recepção, oficina de manutenção e bar. Também neste lote será criada
 uma área exterior comum para os residentes e visitantes do complexo,
 com parque de merendas e piscina biológica.             
 Os restantes lotes serão usados para a construção de casas.   
+
 
 
 *** Edificio Central
@@ -527,7 +539,7 @@ aquele espaço.
 
 #+NAME: Bio Pool
 #+Caption: Exemplo de uma piscina biológica, em que o elemento "água", mistura-se com o elemento "terra". fonte de imagem: https://en.wikipedia.org/wiki/Natural_pool  
-#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+#+ATTR_HTML: :alt Piscina Biológica :title Piscina Biológica  :align center :width 600
 [[./images/bio-pool.png]]
 
 #+Name: Piscina Biológica
@@ -743,13 +755,47 @@ suportar o painel solar e a movimentação de trabalhadores no telhado.
 
 
 ** Análise SWOT
-A análise SWOT é apresentada na Figura [[swot]].
+
+A Análise SWOT é uma ferramenta de gestão muito utilizada pelas
+empresas para o diagnóstico estratégico, facilita a identificação dos
+pontos fortes e os pontos fracos da empresa, relacionando-os que com a
+legislação aplicável em vigor, a conjuntura económica e do mercado em
+que opera. 
+
+Este tipo de análise é efetuado a 2 níveis, a nível interno e a nível
+externo. Ao nível interno são avaliados os pontos forte e fracos,
+enquanto que, ao nível externo são diagnosticadas as oportunidades e
+ameaças resultantes de uma análise da envolvente do empreendimento. Os
+dados que se obtém com a realização de uma análise SWOT permitem
+definir os objetivos futuros do empreendimento/empresa. 
+
+
+Aplicando esta ferramenta ao nosso empreendimento, efetuou-se uma
+análise, sendo os resultados da mesma apresentados na figura [[swot]]
+
+
 
 #+NAME: swot
 #+Caption: Análise SWOT
-#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+#+ATTR_HTML: :alt swot :title SWOT  :align center :width 600
 [[./images/swot.png]]
 
+Neste sentido, pode dizer-se que esta empresa tem pontos fortes
+bastante claros e definidos que a diferenciam de possíveis
+concorrentes, o facto de se inserir num ambiente de natureza com uma
+beleza extrema e a possibilidade de cada cliente ter um espaço
+independente de forma a preservar a sua privacidade, são aspetos
+únicos que tornam este empreendimento tão singular. Por outro lado, as
+apostas que faz ao nível da qualidade dos serviços oferecidos e o
+facto de ter diversos serviços à disposição dos clientes também traz
+prestígio à empresa.
+
+Os pontos fracos dizem respeito ao facto de ser um investimento
+elevado e a possibilidade de haver falta de clientes em época baixa.
+
+Em relação às ameaças é algo que não é da responsabilidade do
+promotor, uma vez que a situação climática do País e as dificuldades
+que o País atravessa são factos que o transcendem.
 
 
 ** Canvas
@@ -758,7 +804,7 @@ O canvas para o trabalho é apresentado na Figura [[canvas]].
 
 #+NAME: canvas
 #+Caption: Canvas
-#+ATTR_HTML: :alt casa :title Contentor  :align center :width 600
+#+ATTR_HTML: :alt canvas :title Canvas  :align center :width 600
 [[./images/canvas.png]]
 
 
