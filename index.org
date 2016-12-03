@@ -359,7 +359,7 @@ serviços.
 
 
  
-* IN-PROGRESS Definição do Ambito
+* DONE Definição do Ambito
 
 #+NAME: Container Home II
 #+Caption: Exemplo de uma das casas a serem construídas. Imagem obtida do website: http://housely.com/evolution-shipping-container-homes/ 
